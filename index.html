@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7a366bbe0a.js" crossorigin="anonymous"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>Hunter Kitchen Designs | Your Dream Kitchen Is Here</title>
 </head>
@@ -14,57 +15,108 @@
 
     <!-- Page heading to be centered at the top of the page, chaange to logo on smaller viewports -->
     <header>
-        <div class="row">
-            <div class="col">
-                <a class="page-heading" id="logo" href="index.html">
-                    <h1>Hunter Kitchen Designs </h1>
-                    <p>Bespoke Kitchens Just For You</p>
-                </a>
+        <div class="container-fluid">
+            <div class="row bg-color-page-heading">
+                <div class="col">
+                    <a class="page-heading uppercase" id="page-heading" href="index.html">
+                        <h1 class="logo d-none d-sm-block"><span class="HKD">H</span>unter <span
+                                class="HKD">K</span>itchen <span class="HKD">D</span>esign</h1>
+                        <p class="logo-description d-none d-sm-block">Bespoke Kitchens Just For You</p>
+                    </a>
+                </div>
             </div>
         </div>
-
-        <!--Navigation menu to be situated center of the page, beneath Page Heading to provide Home, drop down link to take you to different sections of kitchen galleries, About, Contact Us pages. On smaller viewports it is to be a small menu dropdown icon in the top left of the page. -->
-        <nav class="navbar navbar-expand-sm bg-body-tertiary navbar bg-dark border-bottom border-body"
-            data-bs-theme="dark">
-            <div class=" container-fluid">
-                <a class="navbar-brand" href="index.html">Home</a>
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Kitchens
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Luxury Kitchens</a></li>
-                            <li><a class="dropdown-item" href="#">Contemporary Kitchens</a></li>
-                            <li><a class="dropdown-item" href="#">Taditional Kitchens</a></li>
-                        </ul>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                        </li>
-                    </ul>
+        <div class="col-10">
+            <a class="page-heading uppercase" id="page-heading" href="index.html">
+                <h1 class="logo-mobile d-sm-none"><span class="HKD">H</span>unter <span class="HKD">K</span>itchen <span
+                        class="HKD">D</span>esign</h1>
+        </div>
+        <nav class="navbar bg-body-tertiary fixed-top d-sm-none">
+            <div class="container">
+                <div class="col-2">
+                    <a class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title offcanvas-navbar-logo" id="offcanvasNavbarLabel"><span
+                                    class="HKD">H</span>unter<br><span class="HKD">K</span>itchen<br><span
+                                    class="HKD">D</span>esign</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Inspire Me
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="modern-gallery.html">Modern Kitchens</a></li>
+                                        <li><a class="dropdown-item" href="traditional-gallery.html">Taditional
+                                                Kitchens</a></li>
+                                        <li><a class="dropdown-item" href="consider.html">Things to consider</a></li>
+                                </li>
+                            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
     <body>
-
+        <!--Navigation menu to be situated center of the page, beneath Page Heading to provide Home, drop down link to take you to different sections of 
+            kitchen galleries, About, Contact Us pages. On smaller viewports it is to be a small menu dropdown icon in the top left of the page. -->
+        <nav class="navbar navbar-expand-sm navbar border-bottom border-body">
+            <div class=" container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Inspire Me
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="modern-gallery.html">Modern Kitchens</a>
+                                <a class="dropdown-item" href="traditional-gallery.html">Taditional Kitchens</a>
+                                <a class="dropdown-item" href="consider.html">Things to consider</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!-- an opaque block element with text over the static background image with an enticing phrase -->
-
-        <div>
-            <h2>Cover text - You Can stop Hunting</h2>
-            <h4>We have the perfect kitchen for you</h4>
+        <div class="main-page-cover">
+            <div class="cover-text col-4">
+                <h2>Cover text - You Can stop Hunting</h2>
+                <h4>We have the perfect kitchen for you</h4>
+            </div>
         </div>
 
 
@@ -89,8 +141,7 @@
                     Abi's original thinking, we’re able to deliver the highest quality at every stage for a result that
                     is unique
                     to you and your home.</p>
-            </div>
-            <div>
+
                 <img id="why-img"
                     src="https://images.pexels.com/photos/3016430/pexels-photo-3016430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt=" image of contemporary kitchen">
@@ -100,8 +151,45 @@
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
     </body>
-    <footer>
-        Footer with soicals?
+    <footer class="container-fluid">
+        <div id="footer-content" class="row bg-color-footer">
+            <div class="col-sm-4">
+                <h5 class="uppercase footer-heading">Get In Touch</h5>
+                <p class="inline-block"></p>
+                <div class="git-details">
+                    <p class="footer-phone">01342 123456</p>
+
+                    <a class="footer-email" href="https://outlook.live.com/mail/about/index_en.html" target="_blank"
+                        aria-hidden="true">
+                        getintouch@hkd.com
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <h5 class="footer-heading uppercase">Social</h5>
+                <ul class="list-inline social-links">
+                    <!-- Social links using bootstraps classes along with fontawesome icons. Custom css provided for positioning and styling -->
+                    <li class="list-inline-item footer-icon">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item footer-icon">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item footer-icon">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
 </html>
