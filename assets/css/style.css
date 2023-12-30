@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Encode+Sans:wght@100;300;400;500;700&family=Exo:wght@100;200;300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
-/*-----------------------------------------------------General text/positioning */
+/*-----------------------------------------------------General/text/positioning */
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -13,6 +19,24 @@
     display: inline-block;
 }
 
+/* block divider */
+
+.divider {
+    width: 10%;
+    height: 5px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.divider-color {
+    background-color: #4b4b4b;
+}
+
+hr {
+    color: #008080;
+    opacity: 0.8;
+    margin: 1rem 0px;
+}
 
 /*-----------------------------------------------------Colors*/
 .bg-color-page-heading {
@@ -73,6 +97,8 @@
 
 /*-----------------------------------------------------Navbar*/
 
+/* medium size and upwards navbar */
+
 .navbar {
     position: relative;
     background-color: #fafafa;
@@ -94,6 +120,8 @@
     --bs-nav-link-hover-color: #008080;
     align-items: center;
 }
+
+/*  nav dropdown menu */
 
 .dropdown-menu {
     --bs-dropdown-zindex: 1000;
@@ -119,6 +147,8 @@
     text-transform: uppercase;
 }
 
+/* smaller screen sidebar nav */
+
 .navbar-toggler {
     position: fixed;
     top: 20px;
@@ -143,7 +173,9 @@
     max-width: 80%;
 }
 
-/*-----------------------------------------------------Main page*/
+/*-----------------------------------------------------Home page*/
+
+/* cover background */
 
 #page-cover-outer {
     height: 650px;
@@ -165,12 +197,95 @@
 
 @keyframes page-cover-zoom {
     from {
-        transform:scale(0.95);
+        transform: scale(0.95);
     }
+
     to {
         transform: scale(1);
 
     }
+}
+
+/* Cover text */
+
+.cover-text h2 {
+    font-family: "Exo", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 15px;
+    margin-top: 5px;
+    color: #a1a1a1;
+}
+
+.cover-text h4 {
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin-top: 20px;
+    color: #008080;
+}
+
+.cover-text {
+    position: absolute;
+    width:270px;
+    height: 150px;
+
+    padding-left: 10px;
+    padding-top: 30px;
+
+    background-color: rgba(49, 49, 49, 0.5);
+
+    bottom: 80px;
+    right: 120px;
+}
+
+/* main text content */
+
+#here-for-you {
+    text-align: center;
+    max-width: 70%;
+    margin: 3% auto 2%;
+}
+
+#why-us {
+    text-align: center;
+    max-width: 70%;
+    margin: 2% auto 3%;
+}
+
+#here-for-you h2 {
+    font-family: "Exo", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: #181818;
+}
+
+#why-us h2 {
+    font-family: "Exo", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: #181818;
+}
+
+#here-for-you p {
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4b4b4b;
+}
+
+#why-us p {
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4b4b4b;
 }
 
 /*-----------------------------------------------------Footer*/
@@ -194,7 +309,7 @@
     text-align: center;
     text-decoration: none;
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
 .footer-icon {
@@ -278,11 +393,101 @@
 }
 
 
-
 @media(min-width: 1200px) {
 
     .footer-icon {
         margin-left: 20%;
         margin-right: 20%;
+    }
+
+    .cover-text h2 {
+        font-family: "Exo", sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        line-height: 18px;
+        margin-top: 10px;
+        color: #a1a1a1;
+    }
+    
+    .cover-text h4 {
+        font-family: "Exo", sans-serif;
+        font-size: 22px;
+        letter-spacing: 2px;
+        line-height: 20px;
+        margin-top: 20px;
+        padding-right: 40px;
+        color: #008080;
+    }
+
+    .cover-text {
+        position: absolute;
+        width: 300px;
+        height: 170px;
+
+        padding-left: 10px;
+        padding-top: 30px;
+
+        background-color: rgba(49, 49, 49, 0.5);
+
+        bottom: 45px;
+        right: 190px;
+    }
+
+    #here-for-you {
+        text-align: center;
+        max-width: 50%;
+        margin: 3% auto 2%;
+    }
+    
+    #why-us {
+        text-align: center;
+        max-width: 50%;
+        margin: 2% auto 3%;
+    }
+}
+
+@media(max-width: 768px) {
+    .cover-text {
+        position: absolute;
+        width: 270px;
+        height: 150px;
+
+        padding-left: 10px;
+        padding-top: 30px;
+
+        background-color: rgba(49, 49, 49, 0.5);
+
+        bottom: 100px;
+        right: 0px;
+    }
+
+    #here-for-you {
+        text-align: center;
+        max-width: 80%;
+        margin: 4% auto 3%;
+    }
+    
+    #why-us {
+        text-align: center;
+        max-width: 80%;
+        margin: 3% auto 5%;
+    }
+}
+
+@media(max-width: 576px) {
+    .cover-text {
+        position: absolute;
+        width: 270px;
+        height: 140px;
+
+        padding-top: 30px;
+        padding-left: 15px;
+
+        background-color: rgba(49, 49, 49, 0.5);
+
+        top: 80px;
+        left: 0px;
     }
 }
