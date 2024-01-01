@@ -144,7 +144,7 @@ hr {
     --bs-dropdown-link-hover-color: #008080;
     --bs-dropdown-link-hover-bg: #4b4b4b;
     --bs-dropdown-link-active-color: #008080;
-    --bs-dropdown-link-active-bg: #4b4b4b;
+    --bs-dropdown-link-active-bg: none;
     --bs-dropdown-header-color: #6c757d;
     border: 1;
     border-color: #4b4b4b2d;
@@ -310,6 +310,7 @@ hr {
     padding: 5px;
     color: #008080;
     text-shadow: #4b4b4b;
+    overflow: hidden;
 }
 
 .modern-image-gallery {
@@ -359,6 +360,47 @@ hr {
 }
 
 /*-----------------------------------------------------Traditional Gallery Page*/
+
+#traditional-gallery-heading {
+    display: block;
+    text-align: center;
+    font-family: "Dancing Script", sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 90%;
+    margin: 0 auto 20px;
+    padding: 5px;
+    color: #008080;
+    text-shadow: #4b4b4b;
+    overflow: hidden;
+}
+
+.traditional-image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    width: auto;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.traditional-image-gallery >li {
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+    flex: 1 1 auto;
+}
+
+.traditional-image-gallery li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
 
 /*-----------------------------------------------------Footer*/
 
@@ -564,7 +606,7 @@ hr {
         left: 0px;
     }
 
-    section h2 {
+    #modern-gallery-heading {
         display: block;
         text-align: center;
         font-family: "Dancing Script", sans-serif;
@@ -572,7 +614,23 @@ hr {
         font-size: 30px;
         font-weight: 700;
         letter-spacing: 1px;
-        width: 55%;
+        width: 80%%;
+        margin: 0 auto 20px;
+        padding: 5px;
+        color: #008080;
+        text-shadow: #4b4b4b;
+        overflow: hidden;
+    }
+
+    #traditional-gallery-heading {
+        display: block;
+        text-align: center;
+        font-family: "Dancing Script", sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        width: 80%%;
         margin: 0 auto 20px;
         padding: 5px;
         color: #008080;
