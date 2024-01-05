@@ -13,7 +13,7 @@
 
 <body>
 
-    <!-- Page heading to be centered at the top of the page, change size and postion when viewed on small viewports and mobile devices using another class, 
+    <!-- Page heading - to be centered at the top of the page - change size and postion when viewed on small viewports and mobile devices using another class, 
         container and css ruleset. We are using bootstraps conontainer fluid class to make sure it spans the width of the page -->
     <header>
         <div class="container-fluid">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <!-- this container is for the page heading on mobile devices or viewports that are 576px or smaller -->
+        <!-- Page heading on mobile devices or viewports that are 576px or smaller -->
         <div class="container">
             <div class="col-10">
                 <a class="page-heading uppercase" id="page-heading" href="index.html">
@@ -36,7 +36,7 @@
                     </h1>
             </div>
         </div>
-        <!-- Sidebar navigation only for mobile device screens below 576px. Toggle situated top right corner inline with page heading, 
+        <!-- Sidebar - navigation only for mobile device screens below 576px. Toggle situated top right corner inline with page heading, 
             navigation panel transistions in from the right hand side to display nav menu and dropdowns -->
         <nav class="navbar bg-body-tertiary fixed-top d-sm-none">
             <div class="container">
@@ -66,7 +66,7 @@
                                         aria-expanded="false">
                                         Inspire Me
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu border-0">
                                         <li><a class="dropdown-item" href="modern-gallery.html">Modern Kitchens</a></li>
                                         <li><a class="dropdown-item" href="traditional-gallery.html">Traditional
                                                 Kitchens</a></li>
@@ -84,7 +84,7 @@
                 </div>
             </div>
         </nav>
-        <!--Navigation menu to be situated center of the page, beneath Page Heading to provide Home, drop down link to take you to different sections of 
+        <!--Navigation menu - to be situated center of the page, beneath Page Heading to provide Home, drop down link to take you to different sections of 
             kitchen galleries, About, Contact Us pages. On smaller viewports it is to change to a sidebar entering from the right with the toggle at the top left, inline with the page heading. -->
         <nav class="navbar navbar-expand-sm navbar border-bottom border-body">
             <div class=" container-fluid">
@@ -116,16 +116,91 @@
             </div>
         </nav>
     </header>
-    <section>
-
-    </section>
+        <!-- Content - The start of our home pages main content -->
+        <div class="container-fluid">
+            <h2 id="consider-page-heading">Things To Consider...</h2>
+        </div>
+        <!-- using bootstrap grid style for the layout of this content -->
+        <div class="consider-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <img id="consider-colour-image" class="consider-image"
+                            src="../Hunter-Kitchen-Designs/assets/images/white-teal-kitchen.png"
+                            alt="Whit And Teal Contrasting Kitchen" aria-labelledby="consider-colours-text">
+                        <div id="consider-colours-text" class="consider-text">
+                            <h4>Colours</h4>
+                            <p>Did you know that colours can impact your mood? Calming colours can be great for
+                                promoting
+                                relaxation, while certain bold hues can inspire creativity.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 ">
+                        <img id="consider-shapes-image" class="consider-image"
+                            src="../Hunter-Kitchen-Designs/assets/images/kitchen-shapes-01.jpeg"
+                            alt="Kitchen With Rectangle And Square Shapes" aria-labelledby="consider-shapes-text">
+                        <div id="consider-shapes-text">
+                            <h4>Shapes</h4>
+                            <p>Kitchen shape and layout can affect things like flow and movement, while geometric design
+                                can
+                                evoke different attitudes and emotions.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img id="consider-textures-image" class="consider-image"
+                            src="../Hunter-Kitchen-Designs/assets/images/kitchen-textures.png"
+                            alt="Granite And Wood Kitchen" aria-labelledby="consider-textures-text">
+                        <div id="consider-textures-text">
+                            <h4>Textures</h4>
+                            <p>Do you love the cooling touch of marble? The rustic grains and grooves of hardwood? Or
+                                the
+                                speckled effect of granite? Textured surfaces bring a space to life.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <img id="consider-worktop-image" class="consider-image"
+                            src="../Hunter-Kitchen-Designs/assets/images/Granite-worktop.png"
+                            alt="Granite Kitchen Worktop" aria-labelledby="consider-worktop-text">
+                        <div id="consider-worktop-text" class="consider-text">
+                            <h4>Worktops</h4>
+                            <p>A beautiful work surface can finish off your new luxury kitchen perfectly, 
+                                whether you choose a stunning man-made surface such as Laminam or Dekton or opt for
+                                 gorgeous natural stone finishes such as quartz, granite or marble.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img id="consider-sink-image" class="consider-image"
+                            src="../Hunter-Kitchen-Designs/assets/images/taps-sink-kitchen-image.png"
+                            alt="Image Of A Sink And Tap" aria-labelledby="consider-sinks-text">
+                        <div id="consider-sinks-text">
+                            <h4>Taps & Sinks</h4>
+                            <p>Hunter showrooms offer beautiful ranges of taps and sinks. Pair either a modern metal or a traditional 
+                                ceramic sink with elegant taps, or upgrade to boiling, filtered and sparkling water taps. There’s so much choice.</p>
+                                         </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img id="consider-storage-image" class="consider-image"
+                            src="../Hunter-Kitchen-Designs/assets/images/kitchen-storage.jpeg"
+                            alt="Kitchen Storage Image" aria-labelledby="consider-storage-text">
+                        <div id="consider-storage-text">
+                            <h4>Storage</h4>
+                            <p>Storage is very important when it comes to having an efficient kitchen. A popular choice for many Hunter clients; a pull out larder can be full or worktop height, 
+                                gliding out to reveal it’s contents with aluminium and glass-sided storage comparments plus soft, motion sensitive lighting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </body>
 
 <!-- footer  -->
-<footer class="container-fluid">
+<!-- footer Gwt In Touch -->
+<footer class="container-fluid mt-auto">
     <div id="footer-content" class="row bg-color-footer">
         <div class="col-sm-5">
             <h5 class="uppercase footer-heading">Get In Touch</h5>
@@ -139,10 +214,11 @@
                 </a>
             </div>
         </div>
-        <div class="col-sm-7">
+        <!-- Footer Social  -->
+        <div class="col-sm-7 social-footer">
             <h5 class="footer-heading uppercase">Social</h5>
             <ul class="list-inline social-links">
-                <!-- Social links using bootstraps classes along with fontawesome icons. Custom css provided for positioning and styling -->
+                <!-- Social links - using bootstraps classes along with fontawesome icons. Custom css provided for positioning and styling -->
                 <li class="list-inline-item footer-icon">
                     <a target="_blank" href="#">
                         <i class="fa fa-facebook" aria-hidden="true"></i>

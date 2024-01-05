@@ -146,7 +146,6 @@ hr {
     --bs-dropdown-link-active-color: #008080;
     --bs-dropdown-link-active-bg: none;
     --bs-dropdown-header-color: #6c757d;
-    border: 1;
     border-color: #4b4b4b2d;
 }
 
@@ -255,13 +254,13 @@ hr {
 #here-for-you {
     text-align: center;
     max-width: 70%;
-    margin: 3% auto 2%;
+    margin: 4% auto 3%;
 }
 
 #why-us {
     text-align: center;
     max-width: 70%;
-    margin: 2% auto 3%;
+    margin: 3% auto 4%;
 }
 
 #here-for-you h2 {
@@ -309,7 +308,6 @@ hr {
     margin: 0 auto 20px;
     padding: 5px;
     color: #008080;
-    text-shadow: #4b4b4b;
     overflow: hidden;
 }
 
@@ -323,7 +321,7 @@ hr {
     padding: 0;
 }
 
-.modern-image-gallery >li {
+.modern-image-gallery>li {
     height: 300px;
     cursor: pointer;
     position: relative;
@@ -373,7 +371,6 @@ hr {
     margin: 0 auto 20px;
     padding: 5px;
     color: #008080;
-    text-shadow: #4b4b4b;
     overflow: hidden;
 }
 
@@ -387,7 +384,7 @@ hr {
     padding: 0;
 }
 
-.traditional-image-gallery >li {
+.traditional-image-gallery>li {
     height: 300px;
     cursor: pointer;
     position: relative;
@@ -402,11 +399,79 @@ hr {
     border-radius: 5px;
 }
 
+/*-----------------------------------------------------Things To Consider Page*/
+
+#consider-page-heading {
+    display: block;
+    text-align: center;
+    font-family: "Dancing Script", sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 90%;
+    margin: 0 auto 20px;
+    padding: 5px;
+    color: #008080;
+    overflow: hidden;
+}
+
+.consider-content {
+    display: flex;
+    position: relative;
+    flex: 0 0 auto;
+
+    max-width: 90%;
+    padding-bottom: 10px;
+    margin: auto;
+
+}
+
+.consider-content h4,
+p {
+    text-align: center;
+
+}
+
+.consider-image {
+    margin: 20px auto 10px;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.consider-text {
+    position: relative;
+    padding: 10px;
+    margin: auto;
+}
+
+.consider-content h4 {
+    font-family: "Exo", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #181818;
+}
+
+.consider-content p {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4b4b4b;
+
+    margin-top: 10px;
+}
+
 /*-----------------------------------------------------Footer*/
 
 .footer {
+    position: relative;
     height: 100px;
     margin-top: 20px;
+    bottom: 0;
 }
 
 .footer-heading {
@@ -428,8 +493,8 @@ hr {
 }
 
 .footer-icon {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .footer-icon i {
@@ -606,7 +671,9 @@ hr {
         left: 0px;
     }
 
-    #modern-gallery-heading {
+    #modern-gallery-heading,
+    #traditional-gallery-heading,
+    #consider-page-heading {
         display: block;
         text-align: center;
         font-family: "Dancing Script", sans-serif;
@@ -614,27 +681,10 @@ hr {
         font-size: 30px;
         font-weight: 700;
         letter-spacing: 1px;
-        width: 80%%;
+        width: 80%;
         margin: 0 auto 20px;
         padding: 5px;
         color: #008080;
-        text-shadow: #4b4b4b;
-        overflow: hidden;
-    }
-
-    #traditional-gallery-heading {
-        display: block;
-        text-align: center;
-        font-family: "Dancing Script", sans-serif;
-        font-style: italic;
-        font-size: 30px;
-        font-weight: 700;
-        letter-spacing: 1px;
-        width: 80%%;
-        margin: 0 auto 20px;
-        padding: 5px;
-        color: #008080;
-        text-shadow: #4b4b4b;
         overflow: hidden;
     }
 }
