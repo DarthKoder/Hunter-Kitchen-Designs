@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,13 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/7a366bbe0a.js" crossorigin="anonymous"></script>
+    <script src="../Hunter-Kitchen-Designs/contact.js"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>Hunter Kitchen Designs | Your Dream Kitchen Is Here</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
-    <!-- Page heading to be centered at the top of the page, change size and postion when viewed on small viewports and mobile devices using another class, 
+    <!-- Page heading - to be centered at the top of the page - change size and postion when viewed on small viewports and mobile devices using another class, 
         container and css ruleset. We are using bootstraps conontainer fluid class to make sure it spans the width of the page -->
     <header>
         <div class="container-fluid">
@@ -27,17 +28,18 @@
                 </div>
             </div>
         </div>
-        <!-- this container is for the page heading on mobile devices or viewports that are 576px or smaller -->
+        <!-- Page heading on mobile devices or viewports that are 576px or smaller -->
         <div class="container">
             <div class="col-10">
                 <a class="page-heading uppercase" id="page-heading" href="index.html">
                     <h1 class="logo-mobile d-sm-none"><span class="HKD">H</span>unter <span class="HKD">K</span>itchen
                         <span class="HKD">D</span>esign
                     </h1>
+                </a>
             </div>
         </div>
-        <!-- Sidebar navigation only for mobile device screens below 576px. Toggle situated top right corner inline with page heading, 
-            navigation panel transistions in from the right hand side to display nav menu and dropdowns -->
+        <!-- Sidebar - navigation only for mobile device screens below 576px. Toggle situated top right corner inline with page heading, 
+                navigation panel transistions in from the right hand side to display nav menu and dropdowns -->
         <nav class="navbar bg-body-tertiary fixed-top d-sm-none">
             <div class="container">
                 <div class="col-2">
@@ -71,21 +73,22 @@
                                         <li><a class="dropdown-item active" href="traditional-gallery.html">Traditional
                                                 Kitchens</a></li>
                                         <li><a class="dropdown-item" href="consider.html">Things to consider</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
                                 </li>
                             </ul>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </li>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
-        <!--Navigation menu to be situated center of the page, beneath Page Heading to provide Home, drop down link to take you to different sections of 
-            kitchen galleries, About, Contact Us pages. On smaller viewports it is to change to a sidebar entering from the right with the toggle at the top left, inline with the page heading. -->
+        <!--Navigation menu - to be situated center of the page, beneath Page Heading to provide Home, drop down link to take you to different sections of 
+                kitchen galleries, About, Contact Us pages. On smaller viewports it is to change to a sidebar entering from the right with the toggle at the top left, inline with the page heading. -->
         <nav class="navbar navbar-expand-sm navbar border-bottom border-body">
             <div class=" container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -99,9 +102,10 @@
                                 Inspire Me
                             </a>
                             <ul class="dropdown-menu">
-                                <a class="dropdown-item" href="modern-gallery.html">Modern Kitchens</a>
-                                <a class="dropdown-item active" href="traditional-gallery.html">Traditional Kitchens</a>
-                                <a class="dropdown-item" href="consider.html">Things to consider</a>
+                                <li><a class="dropdown-item" href="modern-gallery.html">Modern Kitchens</a></li>
+                                <li><a class="dropdown-item active" href="traditional-gallery.html">Traditional Kitchens</a>
+                                </li>
+                                <li><a class="dropdown-item" href="consider.html">Things to consider</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -110,12 +114,13 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
-                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+    <!-- Gallery images with hover animations and links to open in another tab -->
     <section>
         <div class="container">
             <h2 id="traditional-gallery-heading">Some Traditional Inspiration...</h2>
@@ -124,30 +129,29 @@
                     <a href="../Hunter-Kitchen-Designs/assets/images/traditional-kitchen-dark-wood.jpg" target="_blank"
                         aria-label="Traditional dark wood kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/traditional-kitchen-dark-wood.jpg"
-                            alt="Traditional Dark Wood Kitchen" />
+                            alt="Traditional Dark Wood Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
-                    <a href="../Hunter-Kitchen-Designs/assets/images/traditional-cream-wood-k.png"
-                        target="_blank" aria-label="Traditional cream wood kitchen image (opens in new tab)"
-                        aria-hidden="false">
+                    <a href="../Hunter-Kitchen-Designs/assets/images/traditional-cream-wood-k.png" target="_blank"
+                        aria-label="Traditional cream wood kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/traditional-cream-wood-k.png"
-                            alt="Traditional Cream Wood Kitchen" />
+                            alt="Traditional Cream Wood Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
-                    <a href="../Hunter-Kitchen-Designs/assets/images/classic-elegant-kitchen-design.jpeg" target="_blank"
-                        aria-label="Calssic elegant kitchen design image (opens in new tab)" aria-hidden="false">
-                        <img src="../Hunter-Kitchen-Designs/assets/images/classic-elegant-kitchen-design.jpeg"
-                            alt="Classic Elegant kitchen Design" />
-                    </a>
-                </li>
-                <li class="gallery-image">
-                    <a href="../Hunter-Kitchen-Designs/assets/images/traditional-mahogany-kitchen.jpg"
-                        target="_blank" aria-label="Tradional mahogany kitchen image (opens in new tab)"
+                    <a href="../Hunter-Kitchen-Designs/assets/images/classic-elegant-kitchen-design.jpeg"
+                        target="_blank" aria-label="Calssic elegant kitchen design image (opens in new tab)"
                         aria-hidden="false">
+                        <img src="../Hunter-Kitchen-Designs/assets/images/classic-elegant-kitchen-design.jpeg"
+                            alt="Classic Elegant kitchen Design">
+                    </a>
+                </li>
+                <li class="gallery-image">
+                    <a href="../Hunter-Kitchen-Designs/assets/images/traditional-mahogany-kitchen.jpg" target="_blank"
+                        aria-label="Tradional mahogany kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/traditional-mahogany-kitchen.jpg"
-                            alt="Traditional Mahogany Kitchen" />
+                            alt="Traditional Mahogany Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
@@ -155,14 +159,14 @@
                         target="_blank" aria-label="Classic wood stone effect kitchen image (opens in new tab)"
                         aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/traditional-wood-stone-kitchen.jpeg"
-                            alt="Classic Wood Stone Effect Kitchen" />
+                            alt="Classic Wood Stone Effect Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/white-classic-kitchen-design.jpeg" target="_blank"
                         aria-label="White classic kitchen design image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/white-classic-kitchen-design.jpeg"
-                            alt="White Classic Kitchen Design" />
+                            alt="White Classic Kitchen Design">
                     </a>
                 </li>
                 <li class="gallery-image">
@@ -170,28 +174,28 @@
                         target="_blank" aria-label="Traditional brown wooden kitchen image (opens in new tab)"
                         aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/traditional-brown-wooden-kitchen.jpg"
-                            alt="Traditional Brown Wooden Kitchen" />
+                            alt="Traditional Brown Wooden Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/traditional-classic-light-k.jpeg" target="_blank"
                         aria-label="Classic traditional light kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/traditional-classic-light-k.jpeg"
-                            alt="Classic Traditional Light Kitchen" />
+                            alt="Classic Traditional Light Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/classic-dark-wooden-kitchen.jpeg" target="_blank"
                         aria-label="Classic dark wooden kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/classic-dark-wooden-kitchen.jpeg"
-                            alt="Classic Dark Wooden Kitchen" />
+                            alt="Classic Dark Wooden Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
-                    <a href="../Hunter-Kitchen-Designs/assets/images/classic-beautiful-green-kitchen.jpg" target="_blank"
-                        aria-label="Classic green kitchen image (opens in new tab)" aria-hidden="false">
+                    <a href="../Hunter-Kitchen-Designs/assets/images/classic-beautiful-green-kitchen.jpg"
+                        target="_blank" aria-label="Classic green kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/classic-beautiful-green-kitchen.jpg"
-                            alt="Classic Green Kitchen" />
+                            alt="Classic Green Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
@@ -199,21 +203,21 @@
                         target="_blank" aria-label="Traditional Vintage Kitchen image (opens in new tab)"
                         aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/traditional-vintage-kitchen-interior.jpeg"
-                            alt="Traditional Vintage Kitchen" />
+                            alt="Traditional Vintage Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/classic-kitchen-white.jpeg" target="_blank"
                         aria-label="Classic kitchen - white image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/classic-kitchen-white.jpeg"
-                            alt="Classic Kitchen - White" />
+                            alt="Classic Kitchen - White">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/classic-pine-kitchen.jpeg" target="_blank"
                         aria-label="Classic pine kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/classic-pine-kitchen.jpeg"
-                            alt="Classic Pine Kitchen" />
+                            alt="Classic Pine Kitchen">
                     </a>
                 </li>
             </ul>
@@ -246,19 +250,19 @@
             <ul class="list-inline social-links">
                 <!-- Social links - using bootstraps classes along with fontawesome icons. Custom css provided for positioning and styling -->
                 <li class="list-inline-item footer-icon">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.facebook.com/">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
                     </a>
                 </li>
                 <li class="list-inline-item footer-icon">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.instagram.com/">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
                     </a>
                 </li>
                 <li class="list-inline-item footer-icon">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.twitter.com/">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <span class="sr-only">Twitter</span>
                     </a>
@@ -267,4 +271,5 @@
         </div>
     </div>
 </footer>
+
 </html>

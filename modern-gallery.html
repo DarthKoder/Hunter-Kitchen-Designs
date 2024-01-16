@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,13 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/7a366bbe0a.js" crossorigin="anonymous"></script>
+    <script src="../Hunter-Kitchen-Designs/contact.js"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>Hunter Kitchen Designs | Your Dream Kitchen Is Here</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
-    <!-- Page heading to be centered at the top of the page, change size and postion when viewed on small viewports and mobile devices using another class, 
+    <!-- Page heading - to be centered at the top of the page - change size and postion when viewed on small viewports and mobile devices using another class, 
         container and css ruleset. We are using bootstraps conontainer fluid class to make sure it spans the width of the page -->
     <header>
         <div class="container-fluid">
@@ -27,17 +28,18 @@
                 </div>
             </div>
         </div>
-        <!-- this container is for the page heading on mobile devices or viewports that are 576px or smaller -->
+        <!-- Page heading on mobile devices or viewports that are 576px or smaller -->
         <div class="container">
             <div class="col-10">
                 <a class="page-heading uppercase" id="page-heading" href="index.html">
                     <h1 class="logo-mobile d-sm-none"><span class="HKD">H</span>unter <span class="HKD">K</span>itchen
                         <span class="HKD">D</span>esign
                     </h1>
+                </a>
             </div>
         </div>
-        <!-- Sidebar navigation only for mobile device screens below 576px. Toggle situated top right corner inline with page heading, 
-            navigation panel transistions in from the right hand side to display nav menu and dropdowns -->
+        <!-- Sidebar - navigation only for mobile device screens below 576px. Toggle situated top right corner inline with page heading, 
+                navigation panel transistions in from the right hand side to display nav menu and dropdowns -->
         <nav class="navbar bg-body-tertiary fixed-top d-sm-none">
             <div class="container">
                 <div class="col-2">
@@ -67,26 +69,26 @@
                                         Inspire Me
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item active" href="modern-gallery.html">Modern
-                                                Kitchens</a></li>
+                                        <li><a class="dropdown-item active" href="modern-gallery.html">Modern Kitchens</a></li>
                                         <li><a class="dropdown-item" href="traditional-gallery.html">Traditional
                                                 Kitchens</a></li>
                                         <li><a class="dropdown-item" href="consider.html">Things to consider</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
                                 </li>
                             </ul>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </li>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
-        <!--Navigation menu to be situated center of the page, beneath Page Heading to provide Home, drop down link to take you to different sections of 
-            kitchen galleries, About, Contact Us pages. On smaller viewports it is to change to a sidebar entering from the right with the toggle at the top left, inline with the page heading. -->
+        <!--Navigation menu - to be situated center of the page, beneath Page Heading to provide Home, drop down link to take you to different sections of 
+                kitchen galleries, About, Contact Us pages. On smaller viewports it is to change to a sidebar entering from the right with the toggle at the top left, inline with the page heading. -->
         <nav class="navbar navbar-expand-sm navbar border-bottom border-body">
             <div class=" container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -100,9 +102,10 @@
                                 Inspire Me
                             </a>
                             <ul class="dropdown-menu">
-                                <a class="dropdown-item active" href="modern-gallery.html">Modern Kitchens</a>
-                                <a class="dropdown-item" href="traditional-gallery.html">Traditional Kitchens</a>
-                                <a class="dropdown-item" href="consider.html">Things to consider</a>
+                                <li><a class="dropdown-item active" href="modern-gallery.html">Modern Kitchens</a></li>
+                                <li><a class="dropdown-item" href="traditional-gallery.html">Traditional Kitchens</a>
+                                </li>
+                                <li><a class="dropdown-item" href="consider.html">Things to consider</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -111,12 +114,13 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
-                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+    <!-- Gallery images with hover animations and links to open in another tab -->
     <section>
         <div class="container">
             <h2 id="modern-gallery-heading">Some Modern Inspiration...</h2>
@@ -125,36 +129,36 @@
                     <a href="../Hunter-Kitchen-Designs/assets/images/luxury-kitchen-white.jpeg" target="_blank"
                         aria-label="Luxury kitchen white image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/luxury-kitchen-white.jpeg"
-                            alt="Luxury Kitchen White" />
+                            alt="Luxury Kitchen White">
                     </a>
                 </li>
                 <li class="gallery-image">
-                    <a href="../Hunter-Kitchen-Designs/assets/images/contemporary-kitchen-black-wood.png"
+                    <a href="Hunter-Kitchen-Designs/assets/images/contemporary-kitchen-black-wood.png"
                         target="_blank" aria-label="Contemporary kitchen dark wood image (opens in new tab)"
                         aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/contemporary-kitchen-black-wood.png"
-                            alt="Contemporary Kitchen Dark Wood " />
+                            alt="Contemporary Kitchen Dark Wood ">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/grey-slate-modern-kitchen.jpeg" target="_blank"
                         aria-label="Grey slate modern kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/grey-slate-modern-kitchen.jpeg"
-                            alt="Grey Slate Modern Kitchen" />
+                            alt="Grey Slate Modern Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/modern-white-brown-kitchen.png" target="_blank"
                         aria-label="Modern white brown wood kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/modern-white-brown-kitchen.png"
-                            alt="Modern White And Dark Brown Wood Kitchen" />
+                            alt="Modern White And Dark Brown Wood Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/modern-kitchen-slate-mobile.png" target="_blank"
                         aria-label="Modern kitchen slate grey image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/modern-kitchen-slate-mobile.png"
-                            alt="Modern Kitchen Slate Grey" />
+                            alt="Modern Kitchen Slate Grey">
                     </a>
                 </li>
                 <li class="gallery-image">
@@ -162,15 +166,15 @@
                         target="_blank" aria-label="Contemporary kitchen - open dark wood image (opens in new tab)"
                         aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/contemporary-kitchen-dark-wood.jpeg"
-                            alt="Contemporary Kitchen - Open Dark Wood" />
-                </a>
+                            alt="Contemporary Kitchen - Open Dark Wood">
+                    </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/contemporary-kitchen-slate-mobile.jpeg"
                         target="_blank" aria-label="Contemporary kitchen slate portrait image (opens in new tab)"
                         aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/contemporary-kitchen-slate-mobile.jpeg"
-                            alt="Contemporary Kitchen Slate" />
+                            alt="Contemporary Kitchen Slate">
                     </a>
                 </li>
                 <li class="gallery-image">
@@ -178,43 +182,42 @@
                         target="_blank" aria-label="Contemporary kitchen white pine image (opens in new tab)"
                         aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/contemporary-kitchen-white-pine.jpg"
-                            alt="Contemporary Kitchen White Pine" />
+                            alt="Contemporary Kitchen White Pine">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/contemporary-kitchen-wood.png" target="_blank"
                         aria-label="Contemporary kitchen white wood image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/contemporary-kitchen-wood.png"
-                            alt="Contemporary Kitchen White Wood" />
+                            alt="Contemporary Kitchen White Wood">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/contemporary-luxury-kitchen.jpeg" target="_blank"
                         aria-label="Contemporary luxury kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/contemporary-luxury-kitchen.jpeg"
-                            alt="Contemporary Luxury Kitchen" />
+                            alt="Contemporary Luxury Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/grey-cabinet-kitchen-m.jpeg" target="_blank"
                         aria-label="Grey cabinet kitchen portrait image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/grey-cabinet-kitchen-m.jpeg"
-                            alt="Grey Cabinet Kitchen" />
+                            alt="Grey Cabinet Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
                     <a href="../Hunter-Kitchen-Designs/assets/images/luxury-kitchen-design.jpeg" target="_blank"
                         aria-label="Luxury open plan kitchen design image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/luxury-kitchen-design.jpeg"
-                            alt="Luxury Open Plan Kitchen" />
+                            alt="Luxury Open Plan Kitchen">
                     </a>
                 </li>
                 <li class="gallery-image">
-                    <a href="../Hunter-Kitchen-Designs/assets/images/contemporary-red-kitchen.png"
-                        target="_blank" aria-label="Modern contemporary red kitchen image (opens in new tab)"
-                        aria-hidden="false">
+                    <a href="../Hunter-Kitchen-Designs/assets/images/contemporary-red-kitchen.png" target="_blank"
+                        aria-label="Modern contemporary red kitchen image (opens in new tab)" aria-hidden="false">
                         <img src="../Hunter-Kitchen-Designs/assets/images/contemporary-red-kitchen.png"
-                            alt="Modern Contemporary Red Kitchen" />
+                            alt="Modern Contemporary Red Kitchen">
                     </a>
                 </li>
             </ul>
@@ -247,19 +250,19 @@
             <ul class="list-inline social-links">
                 <!-- Social links - using bootstraps classes along with fontawesome icons. Custom css provided for positioning and styling -->
                 <li class="list-inline-item footer-icon">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.facebook.com/">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
                     </a>
                 </li>
                 <li class="list-inline-item footer-icon">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.instagram.com/">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
                     </a>
                 </li>
                 <li class="list-inline-item footer-icon">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.twitter.com/">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <span class="sr-only">Twitter</span>
                     </a>
@@ -268,4 +271,5 @@
         </div>
     </div>
 </footer>
+
 </html>

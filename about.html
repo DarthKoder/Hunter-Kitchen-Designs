@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,13 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/7a366bbe0a.js" crossorigin="anonymous"></script>
+    <script src="../Hunter-Kitchen-Designs/contact.js"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>Hunter Kitchen Designs | Your Dream Kitchen Is Here</title>
 </head>
 
 <body>
 
-    <!-- Page heading to be centered at the top of the page, change size and postion when viewed on small viewports and mobile devices using another class, 
+    <!-- Page heading - to be centered at the top of the page - change size and postion when viewed on small viewports and mobile devices using another class, 
         container and css ruleset. We are using bootstraps conontainer fluid class to make sure it spans the width of the page -->
     <header>
         <div class="container-fluid">
@@ -27,17 +28,18 @@
                 </div>
             </div>
         </div>
-        <!-- this container is for the page heading on mobile devices or viewports that are 576px or smaller -->
+        <!-- Page heading on mobile devices or viewports that are 576px or smaller -->
         <div class="container">
             <div class="col-10">
                 <a class="page-heading uppercase" id="page-heading" href="index.html">
                     <h1 class="logo-mobile d-sm-none"><span class="HKD">H</span>unter <span class="HKD">K</span>itchen
                         <span class="HKD">D</span>esign
                     </h1>
+                </a>
             </div>
         </div>
-        <!-- Sidebar navigation only for mobile device screens below 576px. Toggle situated top right corner inline with page heading, 
-            navigation panel transistions in from the right hand side to display nav menu and dropdowns -->
+        <!-- Sidebar - navigation only for mobile device screens below 576px. Toggle situated top right corner inline with page heading, 
+                navigation panel transistions in from the right hand side to display nav menu and dropdowns -->
         <nav class="navbar bg-body-tertiary fixed-top d-sm-none">
             <div class="container">
                 <div class="col-2">
@@ -71,21 +73,22 @@
                                         <li><a class="dropdown-item" href="traditional-gallery.html">Traditional
                                                 Kitchens</a></li>
                                         <li><a class="dropdown-item" href="consider.html">Things to consider</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
                                 </li>
                             </ul>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </li>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
-        <!--Navigation menu to be situated center of the page, beneath Page Heading to provide Home, drop down link to take you to different sections of 
-            kitchen galleries, About, Contact Us pages. On smaller viewports it is to change to a sidebar entering from the right with the toggle at the top left, inline with the page heading. -->
+        <!--Navigation menu - to be situated center of the page, beneath Page Heading to provide Home, drop down link to take you to different sections of 
+                kitchen galleries, About, Contact Us pages. On smaller viewports it is to change to a sidebar entering from the right with the toggle at the top left, inline with the page heading. -->
         <nav class="navbar navbar-expand-sm navbar border-bottom border-body">
             <div class=" container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -99,9 +102,10 @@
                                 Inspire Me
                             </a>
                             <ul class="dropdown-menu">
-                                <a class="dropdown-item" href="modern-gallery.html">Modern Kitchens</a>
-                                <a class="dropdown-item" href="traditional-gallery.html">Traditional Kitchens</a>
-                                <a class="dropdown-item" href="consider.html">Things to consider</a>
+                                <li><a class="dropdown-item" href="modern-gallery.html">Modern Kitchens</a></li>
+                                <li><a class="dropdown-item" href="traditional-gallery.html">Traditional Kitchens</a>
+                                </li>
+                                <li><a class="dropdown-item" href="consider.html">Things to consider</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -110,19 +114,24 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
-                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <!-- About us page -->
     <section id="our-story">
+        <!-- Heading -->
         <div class="our-story-page-heading">
             <h2 id="our-story-heading">Our Story</h2>
             <p id="story-heading-p" class="d-none d-sm-block">
                 Stories help us to give meaning to the things around us. This is ours.
             </p>
         </div>
+        
+        <!-- Beginning of page content -->
+
+        <!-- Story content - using Bootstrap for layout with custom css -->
         <div class="story-bg">
             <div class="story-content">
                 <div class="row">
@@ -200,74 +209,77 @@
         </div>
         <hr class="divider-wide divider-color">
     </section>
-    <!-- Meet the team section - Bootstrap classes used for circular images and some text stylings -->
-    <div class="meet-the-team">
-        <div class="meet-the-theam-heading">
-            <h2 id="meet-the-team-heading">Meet The Team</h2>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <div class="about-abi about-profile">
-                    <img src="../Hunter-Kitchen-Designs/assets/images/abi-image-re.png"
-                        class="abi-image profile-image rounded-circle mr-3" height="200" width="210"
-                        aria-labelledby="about-abi-text abi-title">
-                    <h3 id="abi-title">Abi</h3>
-                    <div id="about-abi-text" class="about-abi-text profile-text">
-                        <p>
-                            As the owner of Hunter Kitchen Designs and a professional designer, I am dedicated
-                            to working along side yourself, the architects and joiners to bring you your exemplary,
-                            individual kitchen of the greatest degree. I will make sure you have the full extent of
-                            the teams knowledge, the best software and craftsmanship to see your exciting endeavours
-                            come to life.
-                            <br>
-                            Abi Hunter - <cite title="HKD">Kitchen Designer & CEO of Hunter Kitchen Designs</cite>
-                        </p>
+
+    <!-- Meet the team section - Bootstrap classes used for circular images, layout and some text stylings -->
+    <section>
+        <div class="meet-the-team">
+            <div class="meet-the-theam-heading">
+                <h2 id="meet-the-team-heading">Meet The Team</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="about-abi about-profile">
+                        <img src="../Hunter-Kitchen-Designs/assets/images/abi-image-re.png" alt="Image of Abi"
+                            class="abi-image profile-image rounded-circle mr-3" height="200" width="210"
+                            aria-labelledby="about-abi-text abi-title">
+                        <h3 id="abi-title">Abi</h3>
+                        <div id="about-abi-text" class="about-abi-text profile-text">
+                            <p>
+                                As the owner of Hunter Kitchen Designs and a professional designer, I am dedicated
+                                to working along side yourself, the architects and joiners to bring you your exemplary,
+                                individual kitchen of the greatest degree. I will make sure you have the full extent of
+                                the teams knowledge, the best software and craftsmanship to see your exciting endeavours
+                                come to life.
+                                <br>
+                                Abi Hunter - <cite title="HKD">Kitchen Designer & CEO of Hunter Kitchen Designs</cite>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center">
+                    <div class="about-heidi about-profile">
+                        <img src="../Hunter-Kitchen-Designs/assets/images/heidi-image.jpeg" alt="Image of Heidi"
+                            class="heidi-image profile-image rounded-circle mr-3" height="200" width="200"
+                            aria-labelledby="about-heidi-text heidi-title">
+                        <h3 id="heidi-title">Heidi</h3>
+                        <div id="about-heidi-text" class="about-heidi-text profile-text">
+                            <p>
+                                After recieving my Degree in Interior Design, I became part of Hunter Design Kitchens.
+                                I use high technology software to help plan your kitchen along side you. Using this
+                                software,
+                                you will be able to see a visual representation of your kitchen aspirations. Along side
+                                this,
+                                I have a wealth of knowledge to help you along your journey.
+                                <br>
+                                Heidi Grover - <cite title="HKD">Kitchen & Interior Designer at HKD</cite>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 text-center">
+                    <div class="about-lee about-profile">
+                        <img src="../Hunter-Kitchen-Designs/assets/images/lee-image.jpeg" alt="Image of Lee"
+                            class="lee-image profile-image rounded-circle mr-3" height="200" width="200"
+                            aria-labelledby="about-lee-text lee-title">
+                        <h3 id="lee-title">Lee</h3>
+                        <div id="about-lee-text" class="about-lee-text profile-text">
+                            <p>
+                                I am here to help you finacially with all of your ambitions when it comes to kitchens.
+                                As Head of Sales & Finances, I will help you break down all individual
+                                prices and create accurate quotes, as well as making sure you get the best prices and
+                                deals
+                                where we
+                                can find them. I am here to help you get the best and the most for your money.
+                                <br>
+                                Lee Hobbs - <cite title="HKD">Head of Sales & Finances at HKD</cite>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-lg-6 text-center">
-                <div class="about-heidi about-profile">
-                    <img src="../Hunter-Kitchen-Designs/assets/images/heidi-image.jpeg"
-                        class="heidi-image profile-image rounded-circle mr-3" height="200" width="200"
-                        aria-labelledby="about-heidi-text heidi-title">
-                    <h3 id="heidi-title">Heidi</h3>
-                    <div id="about-heidi-text" class="about-heidi-text profile-text">
-                        <p>
-                            After recieving my Degree in Interior Design, I became part of Hunter Design Kitchens.
-                            I use high technology software to help plan your kitchen along side you. Using this
-                            software,
-                            you will be able to see a visual representation of your kitchen aspirations. Along side
-                            this,
-                            I have a wealth of knowledge to help you along your journey.
-                            <br>
-                            Heidi Grover - <cite title="HKD">Kitchen & Interior Designer at HKD</cite>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6 text-center">
-                <div class="about-lee about-profile">
-                    <img src="../Hunter-Kitchen-Designs/assets/images/lee-image.jpeg"
-                        class="lee-image profile-image rounded-circle mr-3" height="200" width="200"
-                        aria-labelledby="about-lee-text lee-title">
-                    <h3 id="lee-title">Lee</h3>
-                    <div id="about-lee-text" class="about-lee-text profile-text">
-                        <p>
-                            I am here to help you finacially with all of your ambitions when it comes to kitchens.
-                            As Head of Sales & Finances, I will help you break down all individual
-                            prices and create accurate quotes, as well as making sure you get the best prices and deals
-                            where we
-                            can find them. I am here to help you get the best and the most for your money.
-                            <br>
-                            Lee Hobbs - <cite title="HKD">Head of Sales & Finances at HKD</cite>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -296,19 +308,19 @@
             <ul class="list-inline social-links">
                 <!-- Social links - using bootstraps classes along with fontawesome icons. Custom css provided for positioning and styling -->
                 <li class="list-inline-item footer-icon">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.facebook.com/">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
                     </a>
                 </li>
                 <li class="list-inline-item footer-icon">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.instagram.com/">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
                     </a>
                 </li>
                 <li class="list-inline-item footer-icon">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.twitter.com/">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <span class="sr-only">Twitter</span>
                     </a>
