@@ -71,7 +71,8 @@ hr {
 }
 
 /*-----------------------------------------------------Heading*/
-.page-heading {
+.page-heading, 
+.page-heading-mobile {
     text-align: center;
     text-decoration: none;
     margin-top: 20px;
