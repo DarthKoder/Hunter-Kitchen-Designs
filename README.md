@@ -2,42 +2,6 @@
 
 ## Hunter Kitchen Designs
 
-## Table of Contents
-
-- [Description](#description)
-  - [Logo](#logo)
-  - [Navigation](#navigation/sidebar)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Description
-
-Hunter Design Kitchens is a bespoke kitchen design website for all those who seek a kitchen designer and/or interior designer to work with clients to discuss all aspects of creating, remodeling, or updating the kitchen area of their home.
-
-I built this website as my first ever project. I wanted to create somewthing easy to navigate and look at for those in need of a kitchen creation or upgrade. I believed it to have a sleek design, using a simple but sleek design with mostly neutral colours with accents of soft but a bright teal like colour, so I done my utmost to give it just that. 
-
-### Logo 
-I endevoured to create something modern that stood out but was not to loud and "in your face" as it were. I used the "EL Messiri" font for this which seemed a nice fit and made it stand out against the main "Exo" font I used for the majority of the site. The colours I used for this included a teal like colour #008080 which is the main colour I used for accenting the page along with the subtle dark grey #4b4b4b and i use these colours throught the site for recognition and user comfort. The colouring was important to me and I wanted to emphasise the First letters of each work that can later shortened to HKD and possibly be used to create and emblem for the company. I envisioned this emblem as the capitalised letters being verticaly staggered in a steplike fashion. It has been reduced when on smaller screen sizes along with being situated on the left with no slogan as to not make the screen too cluttered for user experience. The wording has been place vertically when used in the sidebar navigation system whitch uses the highlighted HKD well. 
-
-![Large Logo](assets/images/logo-large.png)
-
-![Small Logo](assets/images/logo-small.png)
-
-![Sidebar Logo](assets/images/logo-sidebar.png)
-
-### Navigation Bar / Sidebar
-This has been reduced down and been place in the center to flow with the layout of the rest of the page. I have used the same "El Messiri" font for this to compliment the logo as well as stand out againg the majority "Exo" font that has been used throughout the site. It contains a dropdown menu for the kitchen related items for ease of use and user expreience. I have also used the same colour co-ordination with the teal like #008080 as the highlighted "active" page, whilst having the mouse hover turn the text to the teal #008080 but in the dropdown menus a background colour of dark grey #4b4b4b will also appear. this is to make the user aware of what page they are on and also actively see what page they are potectially going to next when hovering over, this hover change does not work on the page currently acvtive. I removed the navbar toggler and navigation bar when viewed on a smaller screen and put in a sidebar navigation for this function.
-
-The sidebar was used to tidy the screen up and input to increase user experience when used on smaller screens. It has all the same features and colourings as the navigation bar but it instead has a toggler situated in the top right corner and when activated the sidebar slides in from the right hand side of the screen and present the logo in vertical wording, on the left hand side, as well as the navigation menu, centered, but in vertical format. There is a "X" close button on situated on the right hand side of the logo text.
-
-The navigation bar at first was situated on the left with a larger brand logo as the main home navigation and a toggler on the right when in a smaller screen. I removed the brand logo as it was not visually clean and I had trouble moving it along with the other nevigation text with Bootstraps design. The toggler was stuck at athe same height as the navbar which is situated under the logo text and this was not visually desireable, which was then replaced with the sidebar toggler which was then situated in line with the logo on the top right of the screen, this also came with its own issues. The issue I ran into with the sidebar and toggler was that with Bootstraps design, it was causing a column of whitespace down the right side of the page which I overcame by painstakingly tryihng to find out what Bootstrap css classes were causing this and I finally found the issues and resolved them using my custom CSS. 
-
-![Navigation Bar](assets/images/navbar.png)
-
-![Sidebar](assets/images/sidebar.png)
-
 ### Main Page
 The main home page is the most important as this is the first page to grip the users interest and show them that this is where they want to be. For this reason, I wanted to keep the page modern, eye catching but yet subtle and I managed this by using an attractive image with neutral colours. I also gave it a zoom animation to draw the users attention along with the cover text to entice the users trust. The combination of this, along with the navigation bar and logo, altogether gives the user a welcoming feel for longevity and ease of use.
 
@@ -46,12 +10,6 @@ My motivation for this project was my parter, who is currently an up and coming 
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 - What problem does it solve?
 - What did you learn?
-
-## Installation
-
-To download the files used for this project, please go to my GitHub @DarthKoder and open the repository Hunter-Kitchen-Designs. You can copy and paste the URL or CLone this repository in your own workspace. 
-
-// Screenshot here // 
 
 # Hunter Kitchen Design
 
@@ -138,15 +96,15 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
     * It is identical in design across the pages.
     * Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
 
+    ![Navigation Bar](assets/images/navbar.png)
+
 * Sidebar navigation 
     * The sidebar was used to tidy the screen up and input to increase user experience when used on smaller screens. 
     * It has all the same features and colourings as the navigation bar but it instead has a toggler situated in the top right corner and when activated the sidebar slides in from the right hand side of the screen and present the logo in vertical wording on the left hand side.
     * The navigation menu has the same features as the navigation bar, but is centered and in vertical format.
     * There is a "X" close button on situated on the right hand side of the logo text, you can also click anywhere else on the screen to close.
-    
-![Navigation Bar](assets/images/navbar.png)
 
-![Sidebar](assets/images/sidebar.png)
+    ![Sidebar](assets/images/sidebar.png)
 
 
 * Logo
@@ -154,7 +112,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
     * I used the "EL Messiri" font for this which seemed a nice fit and made it stand out against the main "Exo" font I used for the majority of the site.
     * The colours I used for this included a teal like colour #008080 which is the main colour I used for accenting the page along with the subtle dark grey #4b4b4b.
     * These colours are used throughout the site for recognition and user comfort.
-    * It has been reduced when on smaller screen sizes along with being situated on the left with no slogan as to not make the screen too cluttered for user experience.
+    * It has been reduced when on smaller screen sizes along with being situated on the left with no slogan as to not make the screen too cluttered for user experience - this will reduce down to vertical wording it on very small screens similar to side bar layout.
     * The wording has been place vertically when used in the sidebar navigation system whitch uses the highlighted HKD well.
     * It has a minaimalistic attractive feel to it.
 
@@ -166,24 +124,112 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
 * Main Headings 
 
-* Section one, Dreams and info
-    * This section contains a short heading followed by images.
-    * It gives us a brief description of what we can accomplish through this website.
+    * Are composed of simple teal like colour #008080 capitalised text with 'Dancing Script' font, other than the main page cover heading text uses 'Exo' font.
+    * All but the about page heading reduce down and are positioned on the left hand side when viewed on smaller screens. 
+    * Main heading, which is unique for each page:
+        * The home page is comprised of cover text 'STOP HUNTING We have the perfect kitchen for you' with section headings.
+            * This page is to attract users and give them a little taste of the company and what can do for them.
 
-![Dreams and Info](/assets/images/section-one.PNG)
+            ![Main Cover Heading Text](assets/images/HKD-main-page.png)
+            ![Main Cover Heading Text](assets/images/HKD-main-page-mobile.png)
 
-* Section two, 'How is it possible?'
-    * Information about commercial rocket.
-    * Link to the Sign Up form page to apply for a lucky draw.
+            *  Section one, 'We Are Hear For You'.
+                * This section contains a short decriptive paragraph.
+                * It gives us a brief description of the company and what it has to offer.
 
-![How is it possible?](/assets/images/section-two.PNG)
+                    ![We Are Hear For You](assets/images/we-are-here-for-you-p.png)
 
-* About Lunar Escape
+            * Section two, 'Why Hunter Kitchens?'.
+                * this consits of a few short paragraphs.
+                * It has a short description the company and how it works.
+                * Shows the user what to expect and what we can accomplish working together.
+                * Gives a sense of quality and high standard to the company.
+
+                    ![Why Hunter Kitchens](assets/images/why-hunter-kitchens-p.png)
+
+        * Modern kitchen gallery is made up of 'Some Modern Inspiration...'.
+            * This page is a gallery for users to see some of the modern kitchens we have installed and to inspire them with their designs.
+
+        ![Modern Kitchen Gallery](assets/images/modern-kitchen-gallery-h2.png)
+        ![Modern Kitchen Gallery Mobile](assets/images/modern-gallery-mobile-h2.png)
+
+        * Traditional kitchen gallery has the heading of 'Some Traditional Inspiration...'
+            * This page is a gallery for users to see some of the traditional kitchens we have installed and to inspire them with their designs.
+
+        ![Modern Kitchen Gallery](assets/images/traditional-gallery-h2.png)
+        ![Modern Kitchen Gallery Mobile](assets/images/traditional-gallery-mobile-h2.png)
+
+        * Things to comsider is comprised of 'Things To Consider...'.
+            * This page is to help the user spark some ideas as to what to think about when designing a kitchen, such as colours, materials etc. 
+        ![Things To Consider](assets/images/things-to-consider-h2.png)
+        ![Things To Consider](assets/images/things-to-consider-mobile-h2.png)
+
+        * About page is comprised of 'Our Story'.
+            * The about page tells th user the story of Hunter Kitchen Designs and introduces them to the team behind it all.
+                * It also contains a small line of emotionally grabbing text 'Stories help us to give meaning to the things around us. This is ours'. 
+
+                ![Our Story](assets/images/our-story-h2.png)
+                ![Our Story](assets/images/our-story-mobile-h2.png)
+
+        * Contact page consists of 'Get In Touch' 
+            * This page is for contacting the company.
+            * It has a form to fill out with an email address and a textarea for writing a message. 
+
+                ![Get In Touch](assets/images/contact-form.png)
+
+                * This page also has a modal that thanks the user for sending a message once it has been submitted. 
+                * The heading reads 'Thank You!'.
+
+                ![Thank You](assets/images/contact-modal.png)
+
+* Home Page
+    * The main home page is the most important as this is the first page to grip the users interest and show them that this is where they want to be.
+    * For this reason, I wanted to keep the page modern, eye catching but yet subtle.
+    * I managed this by using an attractive image with neutral colours.
+        * I also gave it a zoom animation to draw the users attention along with the cover text to entice the users trust.
+    * The combination of this, along with the navigation bar and logo, altogether gives the user a welcoming feel for longevity and ease of use.
+
+    ![Main Cover Heading Text](assets/images/HKD-main-page.png)
+    ![Main Cover Heading Text](assets/images/HKD-main-page-mobile.png)
+    ![Main Cover Heading Text](assets/images/HKD-main-page-pt2.png)
+    ![Main Cover Heading Text](assets/images/HKD-main-page-mobile-pt2.png)
+    
+
+* Gallery Pages
+
+* About Page
     * This section will allow users to get information about the Lunar Escape Company.
     * Opportunity to join the company because they are always looking for talented people.
     * Address and contact number.
+        * Section one, 'THE BEGINNING'.
+            * This section contains a short decriptive paragraph.
+            * It gives us a brief description of how the company came to be, its origin story.
 
-![About Lunar Escape](/assets/images/section-three.PNG)
+            ![The Beginning](assets/images/the-beginning-h3.png)
+
+        * Section two, 'OUR PROCESS'
+            * This consits of a short paragraph.
+            * It has a short description the company approaches things along the way.
+            * Shows the user how they will be treated.
+
+            ![Why Hunter Kitchens](assets/images/our-process-h3.png)
+
+        * Section three, 'THE HUNTER DIFFERENCE'
+            * This entails of a short paragraph.
+            * This tells the user what is different about Hunter Kitchen Designs and why they should choose them.
+            * Shows the user why HKD stands out above the rest.
+
+            ![Why Hunter Kitchens](assets/images/the-hunter-difference-h3.png)
+
+        * Section four, 'MEET THE TEAM'
+            * This is the second part of the page introducing the team members.
+            * It has circular images with text underneath them acting as quotations.
+            * They also respond a reduce down into single file when on smaller screens.
+
+            ![Why Hunter Kitchens](assets/images/meet-the-team.png)
+            ![Why Hunter Kitchens](assets/images/meet-the-team-mobile.png)
+
+![About Page](/assets/images/section-three.PNG)
 
 * Footer
     * Links to the social media for Lunar Escape will open in a new tab to allow easy navigation for the user.
@@ -191,12 +237,6 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
     * Hold copyright information about the author. 
 
 ![Footer](/assets/images/footer-image.PNG)
-
-* Gallery 
-    * The gallery will provide the user with supporting images to see shuttle launches, flights, and astronauts.
-    * This section is valuable to the user as they will see our previous flights and astronauts on the Moon.
-
-![Gallery](/assets/images/gallery-image.PNG)
 
 * The Sign Up page
     * This page will allow users to choose a package, sign up for it, and win a trip to the moon in a lucky draw.
@@ -230,6 +270,13 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
  * Wireframes
     * Pen and paper in a notebook: simple and effective.
+---
+
+## Bug fixes 
+
+The navigation bar at first was situated on the left with a larger brand logo as the main home navigation and a toggler on the right when in a smaller screen. I removed the brand logo as it was not visually clean and I had trouble moving it along with the other nevigation text with Bootstraps design. The toggler was stuck at athe same height as the navbar which is situated under the logo text and this was not visually desireable, which was then replaced with the sidebar toggler which was then situated in line with the logo on the top right of the screen, this also came with its own issues. The issue I ran into with the sidebar and toggler was that with Bootstraps design, it was causing a column of whitespace down the right side of the page which I overcame by painstakingly tryihng to find out what Bootstrap css classes were causing this and I finally found the issues and resolved them using my custom CSS.
+
+socials in footer
 ---
 
 ## Technologies Used
