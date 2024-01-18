@@ -53,18 +53,19 @@ To download the files used for this project, please go to my GitHub @DarthKoder 
 
 // Screenshot here // 
 
-# Lunar Escape
+# Hunter Kitchen Design
 
-Lunar Escape Company is looking for people who want to win a trip to the Moon.
-Anybody can sign up through the form application and choose between options such as a regular flight, exploring the surface, or even both.
-The form is already set up to include both options; it is up to the user to decide.
+Hunter Kitchen Design is a company that are there to help individuals who seek a kitchen designer and/or interior designer to work with clients to discuss all aspects of creating, remodeling, or updating the kitchen area of their home and give them a bespoke kitchen at the end of it.
 
-In the about section, there are job opportunities as well, as Lunar Escape Company is always looking for talented people to hire.
-There are links for social media contact and even an address and a phone number.
+Anybody can view our work and history throughout the page. 
 
-![Am I Responsive](/assets/images/am-i-responsive.PNG)
+all users can contact us through the form application and discuss anything surrounding the kitchen design and/or installation process, along with any queries.
 
-[View Lunar Escape live project here](https://thomas-tomo.github.io/Lunar-Escape/)
+You can see all about the company and meet the team in the About page.
+
+![Hunter Kitchen Design](/assets/images/HKD-main-page.png)
+ 
+[View the Hunter Kitchen Design project here](https://github.com/DarthKoder/Hunter-Kitchen-Designs)
 - - -
 ## Table of Contents
 
@@ -90,7 +91,7 @@ There are links for social media contact and even an address and a phone number.
 
 ## User Experience (UX)
 
-This website is a bespoke kitchen design website for all those who seek a kitchen designer and/or interior designer to work with clients to discuss all aspects of creating, remodeling, or updating the kitchen area of their home.
+This website is the help to help with the whole process of finding what type of kitchens they would like, and implementing them into reality.
 
 There is clear navigation and a form set up on the contact us page to get in touch and discuss anything from quereies and plans to go ahead with any kitchen design and/or installations.
 
@@ -112,7 +113,9 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
  * Frequent user goals
     * Always being able to navigate their way.
     * Review the galleries for any new photos and inspiration.
+    * Review all items to help decision making on the Things To Consider page.
     * Review any changes to the contacts information.
+    * Contact the company at ay time.
 - - -
 
 ## Features
