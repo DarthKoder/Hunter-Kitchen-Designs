@@ -128,12 +128,26 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 ### Existing Features
 
 * Navigation bar
-    * It is featured and fixed on all three pages and the form-received page.
+    * It is featured and fixed on all seperate pages.
+    * This has been reduced down and been place in the center to flow with the layout of the rest of the page.
+    * I have used the same "El Messiri" font for this to compliment the logo as well as stand out againg the majority "Exo" font that has been used throughout the site. 
+    * It contains a dropdown menu for the kitchen related items for ease of use and user expreience.
+    * I have used the same colour co-ordination with the teal like #008080 as the highlighted "active" page, whilst having the mouse hover turn the text to the teal #008080 but in the dropdown menus a background colour of dark grey #4b4b4b will also appear. This is to make the user aware of what page they are on and also actively see what page they are potectially going to next when hovering over, this hover change does not work on the page currently active.
+    * I removed the navbar toggler and navigation bar when viewed on a smaller screen and put in a sidebar navigation for this function.
     * Includes links to the logo, home page, gallery, and sign-up page.
     * It is identical in design across the pages.
     * Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
 
-![Navigation](/assets/images/nav-bar.PNG)
+* Sidebar navigation 
+    * The sidebar was used to tidy the screen up and input to increase user experience when used on smaller screens. 
+    * It has all the same features and colourings as the navigation bar but it instead has a toggler situated in the top right corner and when activated the sidebar slides in from the right hand side of the screen and present the logo in vertical wording on the left hand side.
+    * The navigation menu has the same features as the navigation bar, but is centered and in vertical format.
+    * There is a "X" close button on situated on the right hand side of the logo text, you can also click anywhere else on the screen to close.
+    
+![Navigation Bar](assets/images/navbar.png)
+
+![Sidebar](assets/images/sidebar.png)
+
 
 * Main heading
     * It is composed of a background image featuring "stars in the night sky".
