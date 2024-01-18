@@ -149,15 +149,22 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 ![Sidebar](assets/images/sidebar.png)
 
 
-* Main heading
-    * It is composed of a background image featuring "stars in the night sky".
-    * Main heading, which is unique for each page:
-        * The home page is comprised of 'Are you ready to explore the moon?"
-        * Gallery is made up of 'Welcome to our Gallery'.
-        * The sign up page is comprised of 'Application Form'
-        * appllication-received is comprised of 'Application Received'.
+* Logo
+    * I created something modern that stood out but was not to loud.
+    * I used the "EL Messiri" font for this which seemed a nice fit and made it stand out against the main "Exo" font I used for the majority of the site.
+    * The colours I used for this included a teal like colour #008080 which is the main colour I used for accenting the page along with the subtle dark grey #4b4b4b.
+    * These colours are used throughout the site for recognition and user comfort.
+    * It has been reduced when on smaller screen sizes along with being situated on the left with no slogan as to not make the screen too cluttered for user experience.
+    * The wording has been place vertically when used in the sidebar navigation system whitch uses the highlighted HKD well.
+    * It has a minaimalistic attractive feel to it.
 
-![Main heading](/assets/images/main-heading-image.PNG)
+![Large Logo](assets/images/logo-large.png)
+
+![Small Logo](assets/images/logo-small.png)
+
+![Sidebar Logo](assets/images/logo-sidebar.png)
+
+* Main Headings 
 
 * Section one, Dreams and info
     * This section contains a short heading followed by images.
@@ -207,6 +214,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
 ## Features Left to Implement
 
+* The colouring was important to me and I wanted to emphasise the First letters of each work that can later shortened to HKD and possibly be used to create and emblem for the company. I envisioned this emblem as the capitalised letters being verticaly staggered in a steplike fashion.
 * Additional packages might be available in the form section.
 * Updated gallery with additional images.
 * In the future, there could be an online academy that will teach aerospace engineering, which you could join through this website.
