@@ -120,8 +120,9 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
 ## Features
 
-* This website is targeting people who want to win a trip to the moon.
-* They can do that by navigating to the sign-up page and filling out a form.
+* This website is targeting people who a bespoke kitchen in their home.
+* The user can view all galleries and things to consider to help them make choices towards their new kitchen design.
+* They can contact us with any queries or to make any bookings by navigating to the Contact Us page and filling out the form. 
 * Responsive on all device sizes.
 
 ### Existing Features
