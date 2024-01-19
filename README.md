@@ -252,26 +252,25 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
         ![Why Hunter Kitchens](assets/images/meet-the-team.png)
         ![Why Hunter Kitchens](assets/images/meet-the-team-mobile.png)
+* Contact Us Page
+    * This page is to allow the user to contact the company. 
+    * There is a form to fill out with and email address and a textarea to fill out wioth a message. 
+    * It has a submit button.
+    * It will produce a modal thanking the customer for getting in touch once a message has been submitted.
+    * This page is also responsive.
+
+    ![Contact Us](assets/images/contact-us-page.png)
+    ![Contact Us Mobile](assets/images/contact-us-mobile.png)
+    ![Thank You Modal](assets/images/thank-you-modal.png)
 
 * Footer
-    * Links to the social media for Lunar Escape will open in a new tab to allow easy navigation for the user.
-    * It is valuable to the user as it gives them an easy contact option via social media.
-    * Hold copyright information about the author. 
+    * This provides contact information such and telephone number and email address that is a link to outlook for convenience.
+    * Links to the social media will open in a new tab to allow easy navigation for the user.
+    * This is the same on every page.
+    * This it responsive and reduces down to a vertical layout when viewd on smaller screens.
 
-![Footer](/assets/images/footer-image.PNG)
-
-* The Sign Up page
-    * This page will allow users to choose a package, sign up for it, and win a trip to the moon in a lucky draw.
-    * The user can choose a regular flight and explore the surface of both of these to be in the lucky draw.
-    * In the future, there might be more packages to choose from. 
-
-![Sign Up Form](/assets/images/form-image.PNG)
-
-* The Sign Up received page
-    * Form received
-
-![Form received](/assets/images/form-received-image.PNG)
-
+    ![Footer](assets/images/footer.png)
+    ![Footer Mobile](assets/images/footer-mobile.png)
 ---
 
 ## Features Left to Implement

@@ -48,7 +48,7 @@ p {
 }
 
 hr {
-    color: #008080;
+    color: #00a1a1;
     opacity: 0.8;
     margin: 1rem 0px;
 }
@@ -63,11 +63,11 @@ hr {
 }
 
 .HKD {
-    color: #008080;
+    color: #00a1a1;
 }
 
 .active {
-    color: #008080 !important;
+    color: #00a1a1 !important;
 }
 
 /*-----------------------------------------------------Heading*/
