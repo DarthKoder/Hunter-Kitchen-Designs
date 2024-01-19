@@ -90,7 +90,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
     * This has been reduced down and been place in the center to flow with the layout of the rest of the page.
     * I have used the same "El Messiri" font for this to compliment the logo as well as stand out againg the majority "Exo" font that has been used throughout the site. 
     * It contains a dropdown menu for the kitchen related items for ease of use and user expreience.
-    * I have used the same colour co-ordination with the teal like #008f8f as the highlighted "active" page, whilst having the mouse hover turn the text to the teal #008f8f but in the dropdown menus a background colour of dark grey #4b4b4b will also appear. This is to make the user aware of what page they are on and also actively see what page they are potectially going to next when hovering over, this hover change does not work on the page currently active.
+    * I have used the same colour co-ordination with the teal like #009494 as the highlighted "active" page, whilst having the mouse hover turn the text to the teal #009494 but in the dropdown menus a background colour of dark grey #3b3b3b will also appear. This is to make the user aware of what page they are on and also actively see what page they are potectially going to next when hovering over, this hover change does not work on the page currently active.
     * I removed the navbar toggler and navigation bar when viewed on a smaller screen and put in a sidebar navigation for this function.
     * Includes links to the logo, home page, gallery, and sign-up page.
     * It is identical in design across the pages.
@@ -110,7 +110,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 * Logo
     * I created something modern that stood out but was not to loud.
     * I used the "EL Messiri" font for this which seemed a nice fit and made it stand out against the main "Exo" font I used for the majority of the site.
-    * The colours I used for this included a teal like colour #008f8f which is the main colour I used for accenting the page along with the subtle dark grey #4b4b4b.
+    * The colours I used for this included a teal like colour #009494 which is the main colour I used for accenting the page along with the subtle dark grey #3b3b3b.
     * These colours are used throughout the site for recognition and user comfort.
     * It has been reduced when on smaller screen sizes along with being situated on the left with no slogan as to not make the screen too cluttered for user experience - this will reduce down to vertical wording it on very small screens similar to side bar layout.
     * The wording has been place vertically when used in the sidebar navigation system whitch uses the highlighted HKD well.
@@ -124,7 +124,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
 * Main Headings 
 
-    * Are composed of simple teal like colour #00a1a1 capitalised text with 'Dancing Script' font, other than the main page cover heading text uses 'Exo' font.
+    * Are composed of simple teal like colour #009494 capitalised text with 'Dancing Script' font, other than the main page cover heading text uses 'Exo' font.
     * All but the about page heading reduce down and are positioned on the left hand side when viewed on smaller screens. 
     * Main heading, which is unique for each page:
         * The home page is comprised of cover text 'STOP HUNTING We have the perfect kitchen for you' with section headings.
@@ -278,8 +278,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 * The colouring was important to me and I wanted to emphasise the First letters of each work that can later shortened to HKD and possibly be used to create and emblem for the company. I envisioned this emblem as the capitalised letters being verticaly staggered in a steplike fashion.
 * Add radio buttons to the form to highlight what type of kitchen the user is interested in.
 * Updated gallery with additional images.
-* In the future, there could be an online academy that will teach aerospace engineering, which you could join through this website.
----
+* Videos of previous projects.
 
 ## Design
 

@@ -44,11 +44,11 @@ p {
 }
 
 .divider-color {
-    background-color: #4b4b4b;
+    background-color: #3b3b3b;
 }
 
 hr {
-    color: #008f8f;
+    color: #009494;
     opacity: 0.8;
     margin: 1rem 0px;
 }
@@ -59,15 +59,15 @@ hr {
 }
 
 .bg-color-footer {
-    background-color: #4b4b4b;
+    background-color: #3b3b3b;
 }
 
 .HKD {
-    color: #008f8f;
+    color: #009494;
 }
 
 .active {
-    color: #008f8f !important;
+    color: #009494 !important;
 }
 
 /*-----------------------------------------------------Heading*/
@@ -76,7 +76,7 @@ hr {
     text-align: center;
     text-decoration: none;
     margin-top: 15px;
-    color: #4b4b4b;
+    color: #3b3b3b;
 }
 
 .logo {
@@ -132,8 +132,8 @@ hr {
     margin-right: auto;
     padding-top: 0px;
     padding-bottom: 0px;
-    --bs-nav-link-color: #4b4b4b;
-    --bs-nav-link-hover-color: #008f8f;
+    --bs-nav-link-color: #3b3b3b;
+    --bs-nav-link-hover-color: #009494;
     align-items: center;
 }
 
@@ -146,15 +146,15 @@ hr {
     --bs-dropdown-padding-y: 0.5rem;
     --bs-dropdown-spacer: 0.125rem;
     --bs-dropdown-font-size: 1rem;
-    --bs-dropdown-color: #4b4b4b;
+    --bs-dropdown-color: #3b3b3b;
     --bs-dropdown-bg: #fafafa;
-    --bs-dropdown-link-color: #4b4b4b;
-    --bs-dropdown-link-hover-color: #008f8f;
-    --bs-dropdown-link-hover-bg: #4b4b4b;
-    --bs-dropdown-link-active-color: #008f8f;
+    --bs-dropdown-link-color: #3b3b3b;
+    --bs-dropdown-link-hover-color: #009494;
+    --bs-dropdown-link-hover-bg: #3b3b3b;
+    --bs-dropdown-link-active-color: #009494;
     --bs-dropdown-link-active-bg: none;
     --bs-dropdown-header-color: #6c757d;
-    border-color: #4b4b4b2d;
+    border-color: #3b3b3b2d;
 }
 
 .dropdown-item {
@@ -169,14 +169,14 @@ hr {
     top: 20px;
     right: 10px;
     padding: 0;
-    color: #4b4b4b;
+    color: #3b3b3b;
     border: 0;
 }
 
 .navbar-toggler:hover {
     margin-top: 10px;
-    color: #008f8f;
-    border-color: #008f8f;
+    color: #009494;
+    border-color: #009494;
 }
 
 .offcanvas-navbar-logo {
@@ -240,7 +240,7 @@ hr {
     letter-spacing: 2px;
     line-height: 20px;
     margin-top: 20px;
-    color: #008f8f;
+    color: #009494;
 }
 
 .cover-text {
@@ -293,14 +293,14 @@ hr {
     font-family: "Exo", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #4b4b4b;
+    color: #3b3b3b;
 }
 
 #why-us p {
     font-family: "Exo", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #4b4b4b;
+    color: #3b3b3b;
 }
 
 /*-----------------------------------------------------Modern Gallery Page*/
@@ -315,7 +315,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #008f8f;
+    color: #009494;
     overflow: hidden;
 }
 
@@ -378,7 +378,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #008f8f;
+    color: #009494;
     overflow: hidden;
 }
 
@@ -420,7 +420,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #008f8f;
+    color: #009494;
     overflow: hidden;
 }
 
@@ -467,7 +467,7 @@ p {
     font-family: "Exo", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #4b4b4b;
+    color: #3b3b3b;
 
     margin: 10px 20px 30px;
 }
@@ -484,7 +484,7 @@ p {
     width: 80%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #008f8f;
+    color: #009494;
     overflow: hidden;
 }
 
@@ -493,7 +493,7 @@ p {
     font-family: "Exo", sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #4b4b4b;
+    color: #3b3b3b;
     
     max-width: 80%;
     margin: 10px auto 0;
@@ -520,7 +520,7 @@ p {
     font-family: "Exo", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #4b4b4b;
+    color: #3b3b3b;
     margin: 5%;
 }
 
@@ -537,7 +537,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 3px;
     margin: 50px 15px 15px;
-    color: #4b4b4b;
+    color: #3b3b3b;
 }
 
 .about-profile {
@@ -553,7 +553,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 10px 15px 15px;
-    color: #008f8f;
+    color: #009494;
 }
 
 .profile-text {
@@ -561,7 +561,7 @@ p {
     font-family: "Exo", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #4b4b4b;
+    color: #3b3b3b;
 }
 
 /*-----------------------------------------------------Contact*/
@@ -581,7 +581,7 @@ form {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #008f8f;
+    color: #009494;
     overflow: hidden;
 }
 
@@ -590,7 +590,7 @@ form {
     font-family: "Exo", sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #4b4b4b;
+    color: #3b3b3b;
     
     max-width: 80%;
     margin: 10px auto 0;
@@ -609,8 +609,8 @@ form {
 }
 .form-input {
     font-family: "El Messiri", sans-serif;
-    color: #4b4b4b;
-    border-color: #008f8f;
+    color: #3b3b3b;
+    border-color: #009494;
 }
 
 .form-btn {
@@ -621,8 +621,8 @@ form {
     border-radius: 15px;
     width: 160px;
     color: #fafafa;
-    background-color: #008f8f;
-    border-color: #4b4b4b;
+    background-color: #009494;
+    border-color: #3b3b3b;
 
     margin: 30px auto 0;
 }
@@ -632,8 +632,8 @@ form {
 .form-btn:focus,
 .form-btn:active:focus {
     color: #fafafa;
-    background-color: #4b4b4b;
-    border-color: #008f8f;
+    background-color: #3b3b3b;
+    border-color: #009494;
 }
 
 /* Modal */
@@ -646,14 +646,14 @@ form {
     font-family: "El Messiri", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    color: #00a1a1;
+    color: #009494;
 }
 
 .contact-modal p {
     font-family: "Exo", sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #4b4b4b;
+    color: #3b3b3b;
 }
 
 /* Close Call To Action Button */
@@ -665,8 +665,8 @@ form {
     border-radius: 15px;
     width: 160px;
     color: #fafafa;
-    background-color: #008f8f;
-    border-color: #4b4b4b;
+    background-color: #009494;
+    border-color: #3b3b3b;
 
     margin: 30px auto 0;
 }
@@ -676,8 +676,8 @@ form {
 .close-btn:focus,
 .close-btn:active:focus {
     color: #fafafa;
-    background-color: #4b4b4b;
-    border-color: #008f8f;
+    background-color: #3b3b3b;
+    border-color: #009494;
 }
 
 /*-----------------------------------------------------Footer*/
@@ -713,7 +713,7 @@ form {
 }
 
 .footer-icon i {
-    color: #008f8f;
+    color: #009494;
 }
 
 .footer-icon i:hover {
@@ -733,7 +733,7 @@ form {
     text-align: center;
     font-family: "El Messiri", sans-serif;
     font-size: 20px;
-    color: #008f8f;
+    color: #009494;
 }
 
 .footer-email {
@@ -741,12 +741,12 @@ form {
     text-decoration: none;
     font-family: "El Messiri", sans-serif;
     font-size: 20px;
-    color: #008f8f;
+    color: #009494;
 }
 
 .footer-email:hover {
     text-decoration: underline;
-    text-decoration-color: #008f8f;
+    text-decoration-color: #009494;
     color: #fafafa;
 }
 
@@ -859,7 +859,7 @@ form {
         line-height: 20px;
         margin-top: 20px;
         padding-right: 40px;
-        color: #008f8f;
+        color: #009494;
     }
 
     .cover-text {
@@ -953,7 +953,7 @@ form {
         width: 95%;
         margin: 0 10px 0;
         padding: 0 5px 15px 10px;
-        color: #008f8f;
+        color: #009494;
         overflow: hidden;
     }
 
@@ -978,7 +978,7 @@ form {
         width: 95%;
         margin: 0 10px 0;
         padding: 0 5px 15px 10px;
-        color: #008f8f;
+        color: #009494;
         overflow: hidden;
     }
 }
