@@ -48,7 +48,7 @@ p {
 }
 
 hr {
-    color: #00a1a1;
+    color: #008f8f;
     opacity: 0.8;
     margin: 1rem 0px;
 }
@@ -63,11 +63,11 @@ hr {
 }
 
 .HKD {
-    color: #00a1a1;
+    color: #008f8f;
 }
 
 .active {
-    color: #00a1a1 !important;
+    color: #008f8f !important;
 }
 
 /*-----------------------------------------------------Heading*/
@@ -133,7 +133,7 @@ hr {
     padding-top: 0px;
     padding-bottom: 0px;
     --bs-nav-link-color: #4b4b4b;
-    --bs-nav-link-hover-color: #008080;
+    --bs-nav-link-hover-color: #008f8f;
     align-items: center;
 }
 
@@ -149,9 +149,9 @@ hr {
     --bs-dropdown-color: #4b4b4b;
     --bs-dropdown-bg: #fafafa;
     --bs-dropdown-link-color: #4b4b4b;
-    --bs-dropdown-link-hover-color: #008080;
+    --bs-dropdown-link-hover-color: #008f8f;
     --bs-dropdown-link-hover-bg: #4b4b4b;
-    --bs-dropdown-link-active-color: #008080;
+    --bs-dropdown-link-active-color: #008f8f;
     --bs-dropdown-link-active-bg: none;
     --bs-dropdown-header-color: #6c757d;
     border-color: #4b4b4b2d;
@@ -175,8 +175,8 @@ hr {
 
 .navbar-toggler:hover {
     margin-top: 10px;
-    color: #008080;
-    border-color: #008080;
+    color: #008f8f;
+    border-color: #008f8f;
 }
 
 .offcanvas-navbar-logo {
@@ -240,7 +240,7 @@ hr {
     letter-spacing: 2px;
     line-height: 20px;
     margin-top: 20px;
-    color: #008080;
+    color: #008f8f;
 }
 
 .cover-text {
@@ -315,7 +315,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #008080;
+    color: #008f8f;
     overflow: hidden;
 }
 
@@ -378,7 +378,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #008080;
+    color: #008f8f;
     overflow: hidden;
 }
 
@@ -420,7 +420,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #008080;
+    color: #008f8f;
     overflow: hidden;
 }
 
@@ -484,7 +484,7 @@ p {
     width: 80%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #008080;
+    color: #008f8f;
     overflow: hidden;
 }
 
@@ -553,7 +553,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 10px 15px 15px;
-    color: #008080;
+    color: #008f8f;
 }
 
 .profile-text {
@@ -581,7 +581,7 @@ form {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #008080;
+    color: #008f8f;
     overflow: hidden;
 }
 
@@ -610,7 +610,7 @@ form {
 .form-input {
     font-family: "El Messiri", sans-serif;
     color: #4b4b4b;
-    border-color: #008080;
+    border-color: #008f8f;
 }
 
 .form-btn {
@@ -621,7 +621,7 @@ form {
     border-radius: 15px;
     width: 160px;
     color: #fafafa;
-    background-color: #008080;
+    background-color: #008f8f;
     border-color: #4b4b4b;
 
     margin: 30px auto 0;
@@ -633,7 +633,7 @@ form {
 .form-btn:active:focus {
     color: #fafafa;
     background-color: #4b4b4b;
-    border-color: #008080;
+    border-color: #008f8f;
 }
 
 /* Modal */
@@ -646,7 +646,7 @@ form {
     font-family: "El Messiri", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    color: #008080;
+    color: #00a1a1;
 }
 
 .contact-modal p {
@@ -665,7 +665,7 @@ form {
     border-radius: 15px;
     width: 160px;
     color: #fafafa;
-    background-color: #008080;
+    background-color: #008f8f;
     border-color: #4b4b4b;
 
     margin: 30px auto 0;
@@ -677,7 +677,7 @@ form {
 .close-btn:active:focus {
     color: #fafafa;
     background-color: #4b4b4b;
-    border-color: #008080;
+    border-color: #008f8f;
 }
 
 /*-----------------------------------------------------Footer*/
@@ -713,7 +713,7 @@ form {
 }
 
 .footer-icon i {
-    color: #008080;
+    color: #008f8f;
 }
 
 .footer-icon i:hover {
@@ -733,7 +733,7 @@ form {
     text-align: center;
     font-family: "El Messiri", sans-serif;
     font-size: 20px;
-    color: #008080;
+    color: #008f8f;
 }
 
 .footer-email {
@@ -741,12 +741,12 @@ form {
     text-decoration: none;
     font-family: "El Messiri", sans-serif;
     font-size: 20px;
-    color: #008080;
+    color: #008f8f;
 }
 
 .footer-email:hover {
     text-decoration: underline;
-    text-decoration-color: #008080;
+    text-decoration-color: #008f8f;
     color: #fafafa;
 }
 
@@ -859,7 +859,7 @@ form {
         line-height: 20px;
         margin-top: 20px;
         padding-right: 40px;
-        color: #008080;
+        color: #008f8f;
     }
 
     .cover-text {
@@ -953,7 +953,7 @@ form {
         width: 95%;
         margin: 0 10px 0;
         padding: 0 5px 15px 10px;
-        color: #008080;
+        color: #008f8f;
         overflow: hidden;
     }
 
@@ -978,7 +978,7 @@ form {
         width: 95%;
         margin: 0 10px 0;
         padding: 0 5px 15px 10px;
-        color: #008080;
+        color: #008f8f;
         overflow: hidden;
     }
 }
