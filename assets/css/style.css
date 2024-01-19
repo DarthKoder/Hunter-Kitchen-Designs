@@ -226,9 +226,11 @@ hr {
     color: #a1a1a1;
 }
 
-.cover-text h4 {
+.cover-text p {
+    text-align: left;
     font-family: "Exo", sans-serif;
     font-size: 20px;
+    font-weight: 500;
     letter-spacing: 2px;
     line-height: 20px;
     margin-top: 20px;
@@ -268,7 +270,7 @@ hr {
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 15px;
     color: #181818;
 }
@@ -895,9 +897,11 @@ form {
         color: #a1a1a1;
     }
 
-    .cover-text h4 {
+    .cover-text p {
+        text-align: left;
         font-family: "Exo", sans-serif;
         font-size: 22px;
+        font-weight: 500;
         letter-spacing: 2px;
         line-height: 20px;
         margin-top: 20px;
@@ -973,16 +977,16 @@ form {
         font-size: 22px;
     }
     
-    .cover-text h4 {
+    .cover-text p {
         font-size: 18px;
     }
     
     .cover-text {
         position: absolute;
-        width: 230px;
+        width: 245px;
         height: 120px;
     
-        padding: 10px 10px 10px 20px;
+        padding: 20px 5px 5px 25px;
         background-color: rgba(49, 49, 49, 0.5);
     
         top: 70px;
