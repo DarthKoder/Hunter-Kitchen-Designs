@@ -970,23 +970,11 @@ form {
     }
 
     .cover-text h2 {
-        font-family: "Exo", sans-serif;
         font-size: 22px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        line-height: 15px;
-        margin-top: 5px;
-        color: #a1a1a1;
     }
     
     .cover-text h4 {
-        font-family: "Exo", sans-serif;
         font-size: 18px;
-        letter-spacing: 2px;
-        line-height: 20px;
-        margin-top: 20px;
-        color: #009494;
     }
     
     .cover-text {
@@ -1004,18 +992,10 @@ form {
     #modern-gallery-heading,
     #traditional-gallery-heading,
     #consider-page-heading, #contact-heading {
-        display: block;
         text-align: left;
-        font-family: "Dancing Script", sans-serif;
-        font-style: italic;
         font-size: 30px;
         font-weight: 700;
         letter-spacing: 2px;
-        width: 95%;
-        margin: 0 10px 0;
-        padding: 0 5px 15px 10px;
-        color: #009494;
-        overflow: hidden;
     }
 
     form {
@@ -1029,17 +1009,9 @@ form {
     #modern-gallery-heading,
     #traditional-gallery-heading,
     #consider-page-heading, #contact-heading {
-        display: block;
         text-align: left;
-        font-family: "Dancing Script", sans-serif;
-        font-style: italic;
         font-size: 28px;
         font-weight: 700;
         letter-spacing: 1px;
-        width: 95%;
-        margin: 0 10px 0;
-        padding: 0 5px 15px 10px;
-        color: #009494;
-        overflow: hidden;
     }
 }
