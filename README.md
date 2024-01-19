@@ -156,11 +156,12 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
         * Traditional kitchen gallery has the heading of 'Some Traditional Inspiration...'
             * This page is a gallery for users to see some of the traditional kitchens we have installed and to inspire them with their designs.
 
-        ![Modern Kitchen Gallery](assets/images/traditional-gallery-h2.png)
-        ![Modern Kitchen Gallery Mobile](assets/images/traditional-gallery-mobile-h2.png)
+        ![Traditional Kitchen Gallery](assets/images/traditional-gallery-h2.png)
+        ![Traditional Kitchen Gallery Mobile](assets/images/traditional-gallery-mobile-h2.png)
 
         * Things to comsider is comprised of 'Things To Consider...'.
             * This page is to help the user spark some ideas as to what to think about when designing a kitchen, such as colours, materials etc. 
+
         ![Things To Consider](assets/images/things-to-consider-h2.png)
         ![Things To Consider](assets/images/things-to-consider-mobile-h2.png)
 
@@ -196,40 +197,61 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
     
 
 * Gallery Pages
+    * There are two gallery pages, modern & traditional. 
+    * They are images in grid layout for ther user to look at for inspiration and to see the companies previous projects. 
+    * Each individual image has a hover animation.
+    * Each image can be clicked as a link and will take you to a seperate tab to be viewed full-size.
+    * The galleries are responsive and will reduce down to 1 column on smaller screens. 
+
+    ![Modern Gallery](assets/images/modern-gallery.png)
+    ![Modern Gallery Mobile](assets/images/modern-gallery-mobile.png)
+    ![Traditional Gallery](assets/images/traditional-gallery.png)
+    ![Traditional Gallery Mobile](assets/images/traditional-gallery-mobile.png)
+
+* Things To Consider Page
+    * This page is to help identify a few things regarding kitchen design.  
+    * It is to help the user spark some ideas as to what to think about when designing a kitchen, such as colours, materials etc. 
+    * It is also responsive and reduces down to a single column on smaller screen sizes. 
+
+    ![Things To Consider](assets/images/things-to-consider.png)
+    ![Things To Consider Mobile](assets/images/things-to-consider-mobile.png)
 
 * About Page
-    * This section will allow users to get information about the Lunar Escape Company.
-    * Opportunity to join the company because they are always looking for talented people.
-    * Address and contact number.
-        * Section one, 'THE BEGINNING'.
-            * This section contains a short decriptive paragraph.
-            * It gives us a brief description of how the company came to be, its origin story.
+    * This section will allow users to get information about Hunter Kitchen Design.
+    * This page gives an overview of the companies story. 
+    * You can see more about the team.
+    * There are sections with different pieces of information for the user regarding the company.
+    
+    ![About Page](assets/images/about-page.png)
+    ![About Page Mobile](assets/images/about-page-mobile.png)
 
-            ![The Beginning](assets/images/the-beginning-h3.png)
+    * Section one, 'THE BEGINNING'.
+        * This section contains a short decriptive paragraph.
+        * It gives us a brief description of how the company came to be, its origin story.
 
-        * Section two, 'OUR PROCESS'
-            * This consits of a short paragraph.
-            * It has a short description the company approaches things along the way.
-            * Shows the user how they will be treated.
+        ![The Beginning](assets/images/the-beginning-h3.png)
 
-            ![Why Hunter Kitchens](assets/images/our-process-h3.png)
+    * Section two, 'OUR PROCESS'
+        * This consits of a short paragraph.
+        * It has a short description the company approaches things along the way.
+        * Shows the user how they will be treated.
 
-        * Section three, 'THE HUNTER DIFFERENCE'
-            * This entails of a short paragraph.
-            * This tells the user what is different about Hunter Kitchen Designs and why they should choose them.
-            * Shows the user why HKD stands out above the rest.
+        ![Why Hunter Kitchens](assets/images/our-process-h3.png)
 
-            ![Why Hunter Kitchens](assets/images/the-hunter-difference-h3.png)
+    * Section three, 'THE HUNTER DIFFERENCE'
+        * This entails of a short paragraph.
+        * This tells the user what is different about Hunter Kitchen Designs and why they should choose them.
+        * Shows the user why HKD stands out above the rest.
 
-        * Section four, 'MEET THE TEAM'
-            * This is the second part of the page introducing the team members.
-            * It has circular images with text underneath them acting as quotations.
-            * They also respond a reduce down into single file when on smaller screens.
+        ![Why Hunter Kitchens](assets/images/the-hunter-difference-h3.png)
 
-            ![Why Hunter Kitchens](assets/images/meet-the-team.png)
-            ![Why Hunter Kitchens](assets/images/meet-the-team-mobile.png)
+    * Section four, 'MEET THE TEAM'
+        * This is the second part of the page introducing the team members.
+        * It has circular images with text underneath them acting as quotations.
+        * They also respond a reduce down into single file when on smaller screens.
 
-![About Page](/assets/images/section-three.PNG)
+        ![Why Hunter Kitchens](assets/images/meet-the-team.png)
+        ![Why Hunter Kitchens](assets/images/meet-the-team-mobile.png)
 
 * Footer
     * Links to the social media for Lunar Escape will open in a new tab to allow easy navigation for the user.
@@ -255,7 +277,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 ## Features Left to Implement
 
 * The colouring was important to me and I wanted to emphasise the First letters of each work that can later shortened to HKD and possibly be used to create and emblem for the company. I envisioned this emblem as the capitalised letters being verticaly staggered in a steplike fashion.
-* Additional packages might be available in the form section.
+* Add radio buttons to the form to highlight what type of kitchen the user is interested in.
 * Updated gallery with additional images.
 * In the future, there could be an online academy that will teach aerospace engineering, which you could join through this website.
 ---
