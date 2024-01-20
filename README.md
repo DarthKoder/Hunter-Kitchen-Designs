@@ -283,10 +283,12 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 ## Design
 
  * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme](/assets/images/colors-used.png)
+    * Primary colors used on the website: ![Color Scheme](/assets/images/HKD-colour-scheme.png)
 
  * Typography
-    * Kanit font is main font used throughout the ite with sans-serif as its fallback font in case Kanit doesn't import for some reasson.
+    * Exo font is main font used throughout the site with sans-serif as its fallback font in case Exo doesn't import for any reasson.
+    * The main logo, navbar & sidebar use the El Messiri font with the back up of sans serif in case any importing issues.
+    * We also have the Dancing Script fomt for the page headings with a back up of sans serif in case of importing issues.
 
  * Wireframes
     * Pen and paper in a notebook: simple and effective.
@@ -302,22 +304,22 @@ socials in footer
 ## Technologies Used
 
  * [HTML5](https://en.wikipedia.org/wiki/HTML5)
- * [CSS3](https://en.wikipedia.org/wiki/CSS)
+ * [CSS3](https://en.wikipedia.org/wiki/CSS) 
 
 ---
 
 ## Frameworks, Libraries & Programs Used
 
- * [Gitpod](https://www.gitpod.io/)
+ * [Codeanywhere](https://app.codeanywhere.com/)
     * To write the code.
- * [Git](https://git-scm.com/)
-    * for vesion control.
  * [Github](https://github.com/)
     * Deployment of the website and storing the files online.
+    * Version control.
  * [Google Fonts](https://fonts.google.com/)
     * Import main font the website.
-* [Am I Responsive](https://ui.dev/amiresponsive)
-    * Mockup picture for the README file.
+* [Font Awesime](hhttps://fontawesome.com/)
+    * Used for importing icons.
+
 ---
 
 ## Testing
