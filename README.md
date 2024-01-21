@@ -379,7 +379,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 ### Manual Testing
 
 * The website was tested on Google Chrome & Microsoft Edge..
-* The website was viewed on a desktop computer, laptop, and Samsung Galaxy Z Fold 4 mobile phone.
+* The website was viewed on a desktop computer, laptop, and Moto G Power mobile phone.
 * A large amount of testing was done to ensure links between pages are working correctly on all pages.
 * Family and friends were asked to review the website for a better understanding of the user experience.
 * Dev Tools was used to test how the site looks on various screen sizes.
@@ -392,25 +392,43 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Home Page
 </summary>
 
-![Home Page lighthouse report](/assets/images/home-mobile-report.PNG)
+![Home Page lighthouse report](/assets/images/index.html-lighthouse-test.png)
 </details>
 <details>
-<summary>Gallery
+<summary>Modern Gallery
 </summary>
 
-![Gallery lighthouse report](/assets/images/gallery-mobile-report.PNG)
+![Gallery lighthouse report](/assets/images/modern-gallery-lighthouse-test.png)
 </details>
 <details>
-<summary>Sign Up
+<summary>Traditional Gallery
 </summary>
 
-![Sign Up Page lighthouse report](/assets/images/sign-up-mobile-report.PNG)
+![Gallery lighthouse report](/assets/images/traditional-gallery.html-lighthouse-test.png)
 </details>
 <details>
-<summary>Application Received
+<summary>Thing To Consider Page
 </summary>
 
-![Application received lighthouse report](/assets/images/form-received-mobile-report.PNG)
+![Sign Up Page lighthouse report](/assets/images/consider.html-lighthouse-test.png)
+</details>
+<details>
+<summary>About Page
+</summary>
+
+![Application received lighthouse report](/assets/images/about.html-lighthouse-test.png)
+</details>
+<details>
+<summary>Contact Page
+</summary>
+
+![Gallery lighthouse report](/assets/images/contact.html-lighthouse-test.png)
+</details>
+<details>
+<summary>Modal Pop up Page
+</summary>
+
+![Gallery lighthouse report](/assets/images/modal-lighthouse-test.png)
 </details>
 
 #### Desktop analysis
