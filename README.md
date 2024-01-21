@@ -291,7 +291,9 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
     * We also have the Dancing Script fomt for the page headings with a back up of sans serif in case of importing issues.
 
  * Wireframes
-    * Pen and paper in a notebook: simple and effective.
+    * Figma: Easy to create, use and share detailed images whlst also effective.
+    * Please find my wireframes here: 
+    https://www.figma.com/file/fupdLpMx3Fb1vqw2rvBQ2N/PM1-Hunter-Kitchen-Design?type=design&t=mSfuEJTOu1VWCTwQ-6
 ---
 
 ## Bug fixes 
@@ -311,13 +313,13 @@ socials in footer
 ## Frameworks, Libraries & Programs Used
 
  * [Codeanywhere](https://app.codeanywhere.com/)
-    * To write the code.
+    * To write and edit the code.
  * [Github](https://github.com/)
     * Deployment of the website and storing the files online.
     * Version control.
  * [Google Fonts](https://fonts.google.com/)
-    * Import main font the website.
-* [Font Awesime](hhttps://fontawesome.com/)
+    * Import main fonts the website.
+* [Font Awesome](hhttps://fontawesome.com/)
     * Used for importing icons.
 
 ---
@@ -335,40 +337,53 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>index.html
 </summary>
 
-![Home Page validation result](/assets/images/html-validation.PNG)
+![Home Page validation result](/assets/images/index.html-checker-results.png)
 </details>
 <details>
-<summary>gallery.html
+<summary>modern-gallery.html
 </summary>
 
-![Gallery validation result](/assets/images/html-validation.PNG)
+![Gallery validation result](/assets/images/modern-gallery-html-check-results.png)
 </details>
 <details>
-<summary>sign-up.html
+<summary>traditional-gallery.html
 </summary>
 
-![Sign Up page validation result](/assets/images/html-validation.PNG)
+![Gallery validation result](/assets/images/traditionakl-gallery-html-check-results.png)
 </details>
 <details>
-<summary>form-received.htmml
+<summary>consider.html
 </summary>
 
-![Application Received validation result](/assets/images/html-validation.PNG)
+![Sign Up page validation result](/assets/images/consider-html-check-results.png)
+</details>
+<details>
+<summary>about.html
+</summary>
+
+![Application Received validation result](/assets/images/about-html-check-results.png)
+</details>
+<details>
+<summary>contact.html
+</summary>
+
+![Gallery validation result](/assets/images/contact-html-check-results.png)
 </details>
 <details>
 <summary>style.css
 </summary>
 
-![CSS validation result](/assets/images/css-validation.PNG)
+![CSS validation result](/assets/images/css-checker-results.png)
 </details>
 
 ### Manual Testing
 
-* The website was tested on Google Chrome, Microsoft Edge, and Opera browsers.
-* The website was viewed on a desktop computer, laptop, and Samsung Galaxy A52 mobile phone.
+* The website was tested on Google Chrome & Microsoft Edge..
+* The website was viewed on a desktop computer, laptop, and Samsung Galaxy Z Fold 4 mobile phone.
 * A large amount of testing was done to ensure links between pages are working correctly on all pages.
 * Family and friends were asked to review the website for a better understanding of the user experience.
 * Dev Tools was used to test how the site looks on various screen sizes.
+* Dev Tools Lightho-use was use to test the performance of each page.
 
 ### Lighthouse Report
 
