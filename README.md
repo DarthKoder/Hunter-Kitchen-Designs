@@ -279,6 +279,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 * Add radio buttons to the form to highlight what type of kitchen the user is interested in.
 * Updated gallery with additional images.
 * Videos of previous projects.
+* Reduce the size of images to make gallery load times better.
 
 ## Design
 
@@ -300,7 +301,11 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
 The navigation bar at first was situated on the left with a larger brand logo as the main home navigation and a toggler on the right when in a smaller screen. I removed the brand logo as it was not visually clean and I had trouble moving it along with the other nevigation text with Bootstraps design. The toggler was stuck at athe same height as the navbar which is situated under the logo text and this was not visually desireable, which was then replaced with the sidebar toggler which was then situated in line with the logo on the top right of the screen, this also came with its own issues. The issue I ran into with the sidebar and toggler was that with Bootstraps design, it was causing a column of whitespace down the right side of the page which I overcame by painstakingly tryihng to find out what Bootstrap css classes were causing this and I finally found the issues and resolved them using my custom CSS.
 
-socials in footer
+socials in footer margin responses to keep them inline when reducing screen sizes.
+
+aria lables for screen readers ammended
+
+meta descriptions to improve screen readers
 ---
 
 ## Technologies Used
@@ -349,7 +354,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>traditional-gallery.html
 </summary>
 
-![Gallery validation result](/assets/images/traditionakl-gallery-html-check-results.png)
+![Gallery validation result](/assets/images/traditional-gallery-html-check-results.png)
 </details>
 <details>
 <summary>consider.html
@@ -387,7 +392,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ### Lighthouse Report
 
-#### Mobile analysis
+#### Desktop analysis
 <details>
 <summary>Home Page
 </summary>
@@ -398,63 +403,81 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Modern Gallery
 </summary>
 
-![Gallery lighthouse report](/assets/images/modern-gallery-lighthouse-test.png)
+![Modern gallery lighthouse report](/assets/images/modern-gallery-lighthouse-test.png)
 </details>
 <details>
 <summary>Traditional Gallery
 </summary>
 
-![Gallery lighthouse report](/assets/images/traditional-gallery.html-lighthouse-test.png)
+![Traditional gallery lighthouse report](/assets/images/traditional-gallery.html-lighthouse.png)
 </details>
 <details>
 <summary>Thing To Consider Page
 </summary>
 
-![Sign Up Page lighthouse report](/assets/images/consider.html-lighthouse-test.png)
+![Consider Page lighthouse report](/assets/images/consider.html-lighthouse-test.png)
 </details>
 <details>
 <summary>About Page
 </summary>
 
-![Application received lighthouse report](/assets/images/about.html-lighthouse-test.png)
+![About lighthouse report](/assets/images/about.html-lighthouse-test.png)
 </details>
 <details>
 <summary>Contact Page
 </summary>
 
-![Gallery lighthouse report](/assets/images/contact.html-lighthouse-test.png)
+![Contact lighthouse report](/assets/images/contact.html-lighthouse-test.png)
 </details>
 <details>
 <summary>Modal Pop up Page
 </summary>
 
-![Gallery lighthouse report](/assets/images/modal-lighthouse-test.png)
+![Modal lighthouse report](/assets/images/modal-lighthouse-test.png)
 </details>
 
-#### Desktop analysis
+#### Mobile analysis
 <details>
 <summary>Home Page
 </summary>
 
-![Home Page lighthouse report](/assets/images/home-page-report.PNG)
+![Home Page lighthouse report](/assets/images/index.html-mobile-lighthouse-test.png)
 </details>
 <details>
-<summary>Gallery
+<summary>Modern Gallery
 </summary>
 
-![Gallery lighthouse report](/assets/images/gallery-report.PNG)
+![Modern gallery lighthouse report](/assets/images/modern-gallery.html-mobile-lighthouse.png)
 </details>
 <details>
-<summary>Sign Up
+<summary>Traditional Gallery
 </summary>
 
-![Sign Up Page lighthouse report](/assets/images/sign-up-report.PNG)
+![Traditional gallery lighthouse report](/assets/images/traditional-gallery.html-mobile-lighthouse.png)
 </details>
 <details>
-<summary>Application Received
+<summary>Thing To Consider Page
 </summary>
 
-![Application received lighthouse report](/assets/images/form-received-report.PNG)
+![Consider Page lighthouse report](/assets/images/consider.html-mobile-lighthouse-test.png)
+</details>
+<details>
+<summary>About Page
+</summary>
+
+![About lighthouse report](/assets/images/about.html-mobile-lighthouse-test.png)
+</details>
+<details>
+<summary>Contact Page
+</summary>
+
+![Contact lighthouse report](/assets/images/contact.html-mobile-lighthouse-test.png)
+</details>
+<details>
+<summary>Modal Pop up Page
+</summary>
+
+![Modal lighthouse report](/assets/images/modal-mobile-lighthouse-test.png)
 </details>
 
 ---
