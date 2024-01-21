@@ -430,7 +430,7 @@ hr {
 
 }
 
-.consider-content h4,
+.consider-content h3,
 p {
     text-align: center;
 }
@@ -448,7 +448,7 @@ p {
     margin: auto;
 }
 
-.consider-content h4 {
+.consider-content h3 {
     font-family: "Exo", sans-serif;
     font-size: 25px;
     font-weight: 600;
