@@ -48,7 +48,7 @@ p {
 }
 
 hr {
-    color: #009494;
+    color: #00A2A2;
     opacity: 0.8;
     margin: 1rem 0px;
 }
@@ -59,15 +59,15 @@ hr {
 }
 
 .bg-color-footer {
-    background-color: #3b3b3b;
+    background-color: #2A2A2A;
 }
 
 .HKD {
-    color: #009494;
+    color: #00A2A2;
 }
 
 .active {
-    color: #009494 !important;
+    color: #00A2A2 !important;
 }
 
 /*-----------------------------------------------------Heading*/
@@ -123,7 +123,7 @@ hr {
     padding-top: 0px;
     padding-bottom: 0px;
     --bs-nav-link-color: #3b3b3b;
-    --bs-nav-link-hover-color: #009494;
+    --bs-nav-link-hover-color: #00A2A2;
     align-items: center;
 }
 
@@ -139,9 +139,9 @@ hr {
     --bs-dropdown-color: #3b3b3b;
     --bs-dropdown-bg: #fafafa;
     --bs-dropdown-link-color: #3b3b3b;
-    --bs-dropdown-link-hover-color: #009494;
+    --bs-dropdown-link-hover-color: #00A2A2;
     --bs-dropdown-link-hover-bg: #3b3b3b;
-    --bs-dropdown-link-active-color: #009494;
+    --bs-dropdown-link-active-color: #00A2A2;
     --bs-dropdown-link-active-bg: none;
     --bs-dropdown-header-color: #6c757d;
     border-color: #3b3b3b2d;
@@ -165,8 +165,8 @@ hr {
 
 .navbar-toggler:hover {
     margin-top: 10px;
-    color: #009494;
-    border-color: #009494;
+    color: #00A2A2;
+    border-color: #00A2A2;
 }
 
 .offcanvas-navbar-logo {
@@ -310,7 +310,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #009494;
+    color: #00A2A2;
     overflow: hidden;
 }
 
@@ -373,7 +373,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #009494;
+    color: #00A2A2;
     overflow: hidden;
 }
 
@@ -415,7 +415,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #009494;
+    color: #00A2A2;
     overflow: hidden;
 }
 
@@ -479,7 +479,7 @@ p {
     width: 80%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #009494;
+    color: #00A2A2;
     overflow: hidden;
 }
 
@@ -548,7 +548,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 10px 15px 15px;
-    color: #009494;
+    color: #00A2A2;
 }
 
 .profile-text {
@@ -576,7 +576,7 @@ form {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #009494;
+    color: #00A2A2;
     overflow: hidden;
 }
 
@@ -605,7 +605,7 @@ form {
 .form-input {
     font-family: "El Messiri", sans-serif;
     color: #3b3b3b;
-    border-color: #009494;
+    border-color: #00A2A2;
 }
 
 .form-btn {
@@ -616,7 +616,7 @@ form {
     border-radius: 15px;
     width: 160px;
     color: #fafafa;
-    background-color: #009494;
+    background-color: #00A2A2;
     border-color: #3b3b3b;
 
     margin: 30px auto 0;
@@ -628,7 +628,7 @@ form {
 .form-btn:active:focus {
     color: #fafafa;
     background-color: #3b3b3b;
-    border-color: #009494;
+    border-color: #00A2A2;
 }
 
 /* Modal */
@@ -660,7 +660,7 @@ form {
     border-radius: 15px;
     width: 160px;
     color: #fafafa;
-    background-color: #009494;
+    background-color: #00A2A2;
     border-color: #3b3b3b;
 
     margin: 30px auto 0;
@@ -672,7 +672,7 @@ form {
 .close-btn:active:focus {
     color: #fafafa;
     background-color: #3b3b3b;
-    border-color: #009494;
+    border-color: #00A2A2;
 }
 
 /*-----------------------------------------------------Footer*/
@@ -708,7 +708,7 @@ form {
 }
 
 .footer-icon i {
-    color: #009494;
+    color: #00A2A2;
 }
 
 .footer-icon i:hover {
@@ -728,7 +728,7 @@ form {
     text-align: center;
     font-family: "El Messiri", sans-serif;
     font-size: 20px;
-    color: #009494;
+    color: #00A2A2;
 }
 
 .footer-email {
@@ -736,12 +736,12 @@ form {
     text-decoration: none;
     font-family: "El Messiri", sans-serif;
     font-size: 20px;
-    color: #009494;
+    color: #00A2A2;
 }
 
 .footer-email:hover {
     text-decoration: underline;
-    text-decoration-color: #009494;
+    text-decoration-color: #00A2A2;
     color: #fafafa;
 }
 
@@ -906,7 +906,7 @@ form {
         line-height: 20px;
         margin-top: 20px;
         padding-right: 40px;
-        color: #009494;
+        color: #00A2A2;
     }
 
     .cover-text {
