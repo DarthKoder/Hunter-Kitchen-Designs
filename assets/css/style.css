@@ -48,7 +48,7 @@ p {
 }
 
 hr {
-    color: #00A2A2;
+    color: #008484;
     opacity: 0.8;
     margin: 1rem 0px;
 }
@@ -63,11 +63,11 @@ hr {
 }
 
 .HKD {
-    color: #00A2A2;
+    color: #008484;
 }
 
 .active {
-    color: #00A2A2 !important;
+    color: #008484 !important;
 }
 
 /*-----------------------------------------------------Heading*/
@@ -123,7 +123,7 @@ hr {
     padding-top: 0px;
     padding-bottom: 0px;
     --bs-nav-link-color: #3b3b3b;
-    --bs-nav-link-hover-color: #00A2A2;
+    --bs-nav-link-hover-color: #008484;
     align-items: center;
 }
 
@@ -139,9 +139,9 @@ hr {
     --bs-dropdown-color: #3b3b3b;
     --bs-dropdown-bg: #fafafa;
     --bs-dropdown-link-color: #3b3b3b;
-    --bs-dropdown-link-hover-color: #00A2A2;
+    --bs-dropdown-link-hover-color: #008484;
     --bs-dropdown-link-hover-bg: #3b3b3b;
-    --bs-dropdown-link-active-color: #00A2A2;
+    --bs-dropdown-link-active-color: #008484;
     --bs-dropdown-link-active-bg: none;
     --bs-dropdown-header-color: #6c757d;
     border-color: #3b3b3b2d;
@@ -234,7 +234,7 @@ hr {
     letter-spacing: 2px;
     line-height: 20px;
     margin-top: 20px;
-    color: #009494;
+    color: #008484;
 }
 
 .cover-text {
@@ -310,7 +310,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #00A2A2;
+    color: #008484;
     overflow: hidden;
 }
 
@@ -373,7 +373,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #00A2A2;
+    color: #008484;
     overflow: hidden;
 }
 
@@ -415,7 +415,7 @@ hr {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #00A2A2;
+    color: #008484;
     overflow: hidden;
 }
 
@@ -479,7 +479,7 @@ p {
     width: 80%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #00A2A2;
+    color: #008484;
     overflow: hidden;
 }
 
@@ -548,7 +548,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 10px 15px 15px;
-    color: #00A2A2;
+    color: #008484;
 }
 
 .profile-text {
@@ -576,7 +576,7 @@ form {
     width: 90%;
     margin: 0 auto 10px;
     padding: 5px;
-    color: #00A2A2;
+    color: #008484;
     overflow: hidden;
 }
 
@@ -605,7 +605,7 @@ form {
 .form-input {
     font-family: "El Messiri", sans-serif;
     color: #3b3b3b;
-    border-color: #00A2A2;
+    border-color: #008484;
 }
 
 .form-btn {
@@ -616,7 +616,7 @@ form {
     border-radius: 15px;
     width: 160px;
     color: #fafafa;
-    background-color: #00A2A2;
+    background-color: #008484;
     border-color: #3b3b3b;
 
     margin: 30px auto 0;
@@ -628,7 +628,7 @@ form {
 .form-btn:active:focus {
     color: #fafafa;
     background-color: #3b3b3b;
-    border-color: #00A2A2;
+    border-color: #008484;
 }
 
 /* Modal */
@@ -641,7 +641,7 @@ form {
     font-family: "El Messiri", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    color: #009494;
+    color: #008484;
 }
 
 .contact-modal p {
@@ -660,7 +660,7 @@ form {
     border-radius: 15px;
     width: 160px;
     color: #fafafa;
-    background-color: #00A2A2;
+    background-color: #008484;
     border-color: #3b3b3b;
 
     margin: 30px auto 0;
@@ -672,7 +672,7 @@ form {
 .close-btn:active:focus {
     color: #fafafa;
     background-color: #3b3b3b;
-    border-color: #00A2A2;
+    border-color: #008484;
 }
 
 /*-----------------------------------------------------Footer*/
@@ -906,7 +906,7 @@ form {
         line-height: 20px;
         margin-top: 20px;
         padding-right: 40px;
-        color: #00A2A2;
+        color: #008484;
     }
 
     .cover-text {

@@ -90,7 +90,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
     * This has been reduced down and been place in the center to flow with the layout of the rest of the page.
     * I have used the same "El Messiri" font for this to compliment the logo as well as stand out againg the majority "Exo" font that has been used throughout the site. 
     * It contains a dropdown menu for the kitchen related items for ease of use and user expreience.
-    * I have used the same colour co-ordination with the teal like #009494 as the highlighted "active" page, whilst having the mouse hover turn the text to the teal #009494 but in the dropdown menus a background colour of dark grey #3b3b3b will also appear. This is to make the user aware of what page they are on and also actively see what page they are potectially going to next when hovering over, this hover change does not work on the page currently active.
+    * I have used the same colour co-ordination with teal as the highlighted "active" page, whilst having the mouse hover turn the text to the teal colour but in the dropdown menus a background colour of onyx will also appear. This is to make the user aware of what page they are on and also actively see what page they are potectially going to next when hovering over, this hover change does not work on the page currently active.
     * I removed the navbar toggler and navigation bar when viewed on a smaller screen and put in a sidebar navigation for this function.
     * Includes links to the logo, home page, gallery, and sign-up page.
     * It is identical in design across the pages.
@@ -110,7 +110,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 * Logo
     * I created something modern that stood out but was not to loud.
     * I used the "EL Messiri" font for this which seemed a nice fit and made it stand out against the main "Exo" font I used for the majority of the site.
-    * The colours I used for this included a teal like colour #009494 which is the main colour I used for accenting the page along with the subtle dark grey #3b3b3b.
+    * The colours I used for this included a teal colour which is the main colour I used for accenting the page along with the subtle onyx.
     * These colours are used throughout the site for recognition and user comfort.
     * It has been reduced when on smaller screen sizes along with being situated on the left with no slogan as to not make the screen too cluttered for user experience - this will reduce down to vertical wording it on very small screens similar to side bar layout.
     * The wording has been place vertically when used in the sidebar navigation system whitch uses the highlighted HKD well.
@@ -124,7 +124,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
 * Main Headings 
 
-    * Are composed of simple teal like colour #009494 capitalised text with 'Dancing Script' font, other than the main page cover heading text uses 'Exo' font.
+    * Are composed of simple teal colour capitalised text with 'Dancing Script' font, other than the main page cover heading text uses 'Exo' font.
     * All but the about page heading reduce down and are positioned on the left hand side when viewed on smaller screens. 
     * Main heading, which is unique for each page:
         * The home page is comprised of cover text 'STOP HUNTING We have the perfect kitchen for you' with section headings.
@@ -284,7 +284,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 ## Design
 
  * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme](/assets/images/HKD-colour-scheme.png)
+    * Primary colors used on the website: ![Color Scheme](/assets/images/colour-scheme-hkd.png)
 
  * Typography
     * Exo font is main font used throughout the site with sans-serif as its fallback font in case Exo doesn't import for any reasson.
@@ -293,19 +293,26 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
  * Wireframes
     * Figma: Easy to create, use and share detailed images whlst also effective.
-    * Please find my wireframes here: 
-    https://www.figma.com/file/fupdLpMx3Fb1vqw2rvBQ2N/PM1-Hunter-Kitchen-Design?type=design&t=mSfuEJTOu1VWCTwQ-6
+    * Please find my wireframes here: [Figma: HKD Wireframes](https://www.figma.com/file/fupdLpMx3Fb1vqw2rvBQ2N/PM1-Hunter-Kitchen-Design?type=design&t=mSfuEJTOu1VWCTwQ-6)
 ---
 
 ## Bug fixes 
 
-The navigation bar at first was situated on the left with a larger brand logo as the main home navigation and a toggler on the right when in a smaller screen. I removed the brand logo as it was not visually clean and I had trouble moving it along with the other nevigation text with Bootstraps design. The toggler was stuck at athe same height as the navbar which is situated under the logo text and this was not visually desireable, which was then replaced with the sidebar toggler which was then situated in line with the logo on the top right of the screen, this also came with its own issues. The issue I ran into with the sidebar and toggler was that with Bootstraps design, it was causing a column of whitespace down the right side of the page which I overcame by painstakingly tryihng to find out what Bootstrap css classes were causing this and I finally found the issues and resolved them using my custom CSS.
+* The navigation bar at first was situated on the left with a larger brand logo as the main home navigation and a toggler on the right when in a smaller screen. 
 
-socials in footer margin responses to keep them inline when reducing screen sizes.
+* I removed the brand logo as it was not visually clean and I had trouble moving it along with the other nevigation text with Bootstraps design. 
 
-aria lables for screen readers ammended
+* The navbar toggler was stuck at athe same height as the navbar which is situated under the logo text and this was not visually desireable, which was then replaced with the sidebar toggler which was then situated in line with the logo on the top right of the screen, this also came with its own issues.
+* The issue I ran into with the sidebar and toggler was that with Bootstraps design, it was causing a column of whitespace down the right side of the page which I overcame by finding out what Bootstrap css classes were causing this and I finally found the issues and resolved them using my custom CSS.
 
-meta descriptions to improve screen readers
+* Socials in footer margins where causing one of the icons to move beneath the others when reducing the screen size. I experimented with margin sizes to keep keep them inline.
+
+* ARIA labels for screen readers ammendeded for accessibility onece tested.
+
+* Meta descriptions were added to improve accessibility for screen readers.
+
+* Accent colours were altered slightly to help with colour ratios to help with accessibility issues after testing - mainly with footer. In the end, I brightened the accent colours and made the background darker to help them stand out.
+
 ---
 
 ## Technologies Used
@@ -326,6 +333,8 @@ meta descriptions to improve screen readers
     * Import main fonts the website.
 * [Font Awesome](hhttps://fontawesome.com/)
     * Used for importing icons.
+* [Bootstrap v5.3](https://getbootstrap.com/)
+    * Used for its helpful responsive layouts and components.
 
 ---
 
@@ -459,7 +468,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Thing To Consider Page
 </summary>
 
-![Consider Page lighthouse report](/assets/images/consider.html-mobile-lighthouse-test.png)
+![Consider Page lighthouse report](/assets/images/consider.html-mobile-lighthouse-test..png)
 </details>
 <details>
 <summary>About Page
@@ -529,7 +538,6 @@ By forking the repository, we make a copy of the original repository on our GitH
 
  * [Pexels](https://www.pexels.com/) free stock photos, royalty free images.
  * [Pixabay](https://pixabay.com/) free stock photos, royalty free images.
- * [Pixlr](https://pixlr.com/) Resizing images.
 ---
 
 ## Acknowledgements
