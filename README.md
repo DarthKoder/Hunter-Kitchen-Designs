@@ -265,45 +265,45 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
 ## Features Left to Implement
 
-* The colouring was important to me; I wanted to emphasise the First letters of each word that can later shortened to HKD and possibly be used to create and emblem for the company. I envisioned this emblem as the capitalised letters being verticaly staggered in a steplike fashion.
-* Add radio buttons to the form to highlight what type of kitchen the user is interested in.
+* The colouring was important to me; I wanted to emphasise the first letters of each word that can later shortened to HKD and possibly be used to create and emblem for the company. I envisioned this emblem as the capitalised letters being verticaly staggered in a step-like fashion.
+* Adds radio buttons to the form to highlight what type of kitchen the user is interested in.
 * Updated gallery with additional images.
 * Videos of previous projects.
-* Reduce the size of images to make gallery load times better.
-* After having different users test and give feedback, I would like to stop the 'kitchens' nav text in the sidebar from moving to the left when activated as one user bought this up and stated it would be prtefered to stay central.
+* Reduces the size of images to make gallery load times better.
+* After having different users test and give feedback, I would like to stop the 'kitchens' navtext in the sidebar from moving to the left when activated as one user bought this up and stated it would be prefered for it to stay central.
 
 ## Design
 
  * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme](/assets/images/colour-scheme-hkd.png)
+    * Primary colours used on the website: ![Color Scheme](/assets/images/colour-scheme-hkd.png)
 
  * Typography
-    * 'Exo' font is main font used throughout the site with sans-serif as its fallback font in case 'Exo' doesn't import for any reasson.
-    * The main logo, navbar & sidebar use the 'El Messiri' font with the back up of sans serif in case any importing issues.
-    * We also have the 'Dancing Script' fomt for the page headings with a back up of sans serif in case of importing issues.
+    * 'Exo' font is the main font used throughout the site with sans-serif as its fallback font, in case 'Exo' doesn't import for any reason.
+    * The main logo, navbar & sidebar use the 'El Messiri' font with the back up of sans serif in case of any importing issues.
+    * We also have the 'Dancing Script' font for the page headings with a back up of sans serif in case of any importing issues.
 
  * Wireframes
-    * Figma: Easy to create, use and share detailed images whlst also effective.
+    * Figma: Easy to create, uses and shares detailed images whilst also effective.
     * Please find my wireframes here: [Figma: HKD Wireframes](https://www.figma.com/file/fupdLpMx3Fb1vqw2rvBQ2N/PM1-Hunter-Kitchen-Design?type=design&t=mSfuEJTOu1VWCTwQ-6)
 ---
 
 ## Bug fixes 
 
-* The navigation bar at first was situated on the left with a larger brand logo as the main home navigation and a toggler on the right when in a smaller screen. 
+* At first, the navigation was situated on the left with a larger brand logo as the main home navigation and a toggler on the right when in a smaller screen. 
 
 * I removed the brand logo as it was not visually clean and I had trouble moving it along with the other nevigation text with Bootstraps design. 
 
-* The navbar toggler was stuck at at the same height as the navbar which is situated under the logo text and this was not visually desireable, this was then replaced with the sidebar toggler and then situated in line with the logo on the top right of the screen, this also came with its own issues.
+* The navbar toggler was stuck at at the same height as the navbar, which is situated under the logo text. This was not visually desireable, this was then replaced with the sidebar toggler and then situated in line with the logo on the top right of the screen, this also came with its own issues.
 
-* The issue I ran into with the sidebar and toggler was that with Bootstraps design, it was causing a column of whitespace down the right side of all pages. I overcame this by finding out what Bootstrap css classes were causing this and I finally found the issues and resolved them using my custom CSS.
+* The issue I ran into with the sidebar and toggler was that with Bootstraps design, it was causing a column of whitespace down the right side of all pages. I overcame this by finding out what Bootstrap CSS classes were causing this and I finally found the issues and resolved them using my custom CSS.
 
-* Social icon margins in footer where causing one of the icons to move beneath the others when reducing the screen size. I experimented with margin sizes to keep them inline throughout.
+* Social icon margins in footer were causing one of the icons to move beneath the others when reducing the screen size. I experimented with margin sizes to keep them inline throughout.
 
 * ARIA labels for screen readers amended for accessibility once tested.
 
 * Meta descriptions were added to improve accessibility for screen readers.
 
-* Accent colours were altered slightly to help with colour ratios to help with accessibility issues after testing - mainly with footer. In the end, I brightened the accent colours and made the background darker to help them stand out.
+* Accent colours were altered slightly to help with colour ratios, helping with accessibility issues after testing - mainly with footer. In the end, I brightened the accent colours and made the background darker to help them stand out.
 
 ---
 
@@ -332,7 +332,7 @@ To help inspire the user with ideas for potential kitchen ideas, such as designs
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
+The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project, to ensure there were no errors.
 
  * [W3C Markup Validtor](https://validator.w3.org/)
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -534,6 +534,6 @@ By forking the repository, we make a copy of the original repository on our GitH
 
 ## Acknowledgements
  * Code Institute for all the necessary information needed towards this project.
- * My mentor Mitko Bachvarov provided helpful feedback, a link to the Flexbox guide as well as a good README template to follow.
+ * My mentor Mitko Bachvarov provided helpful feedback, a link to the Flexbox guide, as well as a good README template to follow.
  * Slack community for encouragement and information.
- * My motivation for this project was my parter, who is currently an up and coming kitchen designer who helped me with some of the information presented on the site, along with the image of her.I wanted to create this site for her and the future of her career.
+ * My motivation for this project was my parter, who is currently an up and coming Kitchen Designer and helped me with some of the information presented on the site; along with the image of her.I wanted to create this site for her and her future career.
